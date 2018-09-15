@@ -1,0 +1,23 @@
+{
+  "name": "seowp",
+  "version": "1.9.0",
+  "description": "SEOWP ===",
+  "main": "functions.php",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://lumberman@github.com/lumbermandesigns/SEOWP.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lumbermandesigns/SEOWP/issues"
+  },
+  "homepage": "https://github.com/lumbermandesigns/SEOWP#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-sass": "^1.0.0"
+  }
+}

@@ -1,0 +1,1 @@
+[29-Sep-2017 23:21:20 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/nesiacom/public_html/wp-content/plugins/hello.php on line 60

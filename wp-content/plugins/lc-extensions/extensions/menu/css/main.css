@@ -1,0 +1,577 @@
+/*.dslc-module-DSLC_Menu_Pro {
+	z-index: 20;  // Fix broken hover over dropdowns out of current sections.
+}*/
+
+.dslca-enabled.dslc-res-tablet .dslc-module-DSLC_Menu_Pro, .dslca-enabled.dslc-res-phone .dslc-module-DSLC_Menu_Pro {
+	z-index: inherit;
+}
+
+.lcmenupro-navigation {
+	display: flex;
+}
+
+.lcmenupro-navigation .menu,
+.lcmenupro-inner {
+	display: flex;
+	align-items: center;
+}
+
+.lcmenupro-navigation .menu li {
+	position: relative;/* – disabled to make full-width dropdowns possible */
+	z-index: 1; /* Fix bug when third-level sub-menu opens when hover quickly. */
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.lcmenupro-navigation .menu > li {
+	flex-wrap: nowrap;
+}
+
+.lcmenupro-navigation .menu > li:hover,
+.lcmenupro-navigation .menu > li.lc-menu-hover {
+	z-index: 2; /* Make sure hovered popup cover first line of menu items. */
+}
+
+.lcmenupro-navigation .menu > li a {
+	display: inline-block;
+	/*padding: 8px 12px;*/
+	line-height: 1.2;
+	position: relative;
+	z-index: 2;
+}
+
+/* Main menu items description. */
+.lcmenupro-navigation .menu > li > a .menu-item-description {
+	display: block;
+	max-width: 110px;
+	font-size: 12px;
+	color: gray;
+}
+
+/* Description in the dropdowns. */
+.lcmenupro-navigation .menu > li.menu-type-columns > .sub-menu > li a .menu-item-description {
+	display: block;
+	font-size: 12px;
+	text-transform: none;
+	font-weight: 400;
+	color: gray;
+}
+
+
+/**
+ * ------------------------------------------------
+ * Columns in the dropdown
+ */
+
+body .lcmenupro-navigation .menu > li.menu-type-columns > .sub-menu {
+	flex-direction: row;
+	align-items: flex-start;
+}
+
+/* Dropdown width variations */
+.lcmenupro-navigation .menu > li.menu-type-columns.menu-width-2s > .sub-menu {
+	min-width: 400px;
+}
+
+.lcmenupro-navigation .menu > li.menu-type-columns.menu-width-2m > .sub-menu {
+	min-width: 460px;
+}
+
+.lcmenupro-navigation .menu > li.menu-type-columns.menu-width-2l > .sub-menu {
+	min-width: 540px;
+}
+
+.lcmenupro-navigation .menu > li.menu-type-columns.menu-width-3s > .sub-menu {
+	min-width: 600px;
+}
+
+.lcmenupro-navigation .menu > li.menu-type-columns.menu-width-3m > .sub-menu {
+	min-width: 700px;
+}
+
+.lcmenupro-navigation .menu > li.menu-type-columns.menu-width-3l > .sub-menu {
+	min-width: 800px;
+}
+
+.lcmenupro-navigation .menu > li.menu-type-columns.menu-width-4s > .sub-menu {
+	min-width: 880px;
+}
+
+.lcmenupro-navigation .menu > li.menu-type-columns.menu-width-4m > .sub-menu {
+	min-width: 940px;
+}
+
+.lcmenupro-navigation .menu > li.menu-type-columns.menu-width-4l > .sub-menu {
+	min-width: 1000px;
+}
+
+.lcmenupro-navigation .menu-type-columns.menu-width-full > .sub-menu {
+	width: 1200px;
+}
+
+@media only screen and (max-width: 1280px) and (min-width: 1024px) {
+	.lcmenupro-navigation .menu-type-columns.menu-width-full > .sub-menu {
+		width: 940px;
+	}
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px)  {
+
+	.lcmenupro-navigation .menu-type-columns.menu-width-full > .sub-menu {
+		min-width: 688px;
+	}
+}
+
+@media only screen and ( max-width: 767px ) {
+	.lcmenupro-navigation .menu-type-columns.menu-width-full > .sub-menu {
+		min-width: 420px;
+	}
+}
+
+
+body .lcmenupro-navigation .menu > li.menu-type-columns > .sub-menu > li {
+   flex-grow: 1;
+   flex-basis: 0;
+   display: flex;
+   align-items: baseline;
+   min-width: 200px;
+}
+
+/* Column UL */
+body .lcmenupro-navigation .menu li.menu-type-columns .sub-menu .sub-menu {
+    position: relative;
+    visibility: visible;
+    opacity: 1;
+    left: 0;
+    flex-basis: 100%;
+    flex-grow: 1;
+    box-shadow: none;
+
+    /*background: rgba(128, 128, 128, 0.08);*/
+}
+
+/* Items inside columns*/
+body .lcmenupro-navigation .menu li.menu-type-columns .sub-menu .sub-menu li {
+	padding: 0;
+	/* flex-wrap: nowrap; */ /* this property applies only flex-container but not flex-element */ /* https://github.com/lumbermandesigns/lc-menu-pro/issues/22 */
+	/* ↑↑↑ Makes Icon to stay on the left of the menu item text
+	even when there is no enough place for the text to fit. */
+}
+
+body .lcmenupro-navigation .menu li.menu-type-columns .sub-menu .sub-menu .sub-menu li a {
+	padding-left: 26px;
+}
+
+body .lcmenupro-navigation .menu li.menu-type-columns .sub-menu .sub-menu .sub-menu li li a {
+	padding-left: 47px;
+}
+
+/* Sub-menu item icons. */
+.lcmenupro-navigation .menu > li > .sub-menu > li:before {
+	max-width: 40px;
+	width: 40px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+/* Sub-menu item description. */
+.lcmenupro-navigation .menu > li > .sub-menu > li[class^="dslc-icon-"] > a,
+.lcmenupro-navigation .menu > li > .sub-menu > li[class*=" dslc-icon-"] > a {
+	max-width: calc( 100% - 40px );
+}
+
+
+.menu .sub-menu .lcmenu-additional-info > a {
+	cursor: default!important;
+}
+
+/**
+ * ------------------------------------------------
+ */
+
+.lcmenupro-navigation .menu .sub-menu {
+	display: flex;
+	flex-direction: column;
+
+	position: absolute;
+	z-index: 1;
+	left: 0;
+	/*top: 100%;*/
+
+	min-width: 200px;
+
+	visibility:hidden;
+	opacity:0;
+
+	transition: opacity .6s cubic-bezier(0.22, 0.61, 0.36, 1);
+
+	/*background: #ededed;*/
+	box-shadow: inset 0px 1px 0px rgba(255,255,255, 0.8), 0px 2px 1px rgba(0, 0, 0, 0.15), 3px 5px 10px rgba(0, 0, 0, 0.19);
+
+	/*max-height: 0;*/
+
+}
+
+.lcmenupro-navigation .menu > li.menu-item-has-children > .sub-menu {
+	top: -2000px;
+}
+
+.lcmenupro-navigation .menu > li.menu-item-has-children:hover > .sub-menu,
+.lcmenupro-navigation .menu > li.menu-item-has-children.lc-menu-hover > .sub-menu {
+	top: 100%;
+}
+
+/* 3D perspective effect. */
+/*
+.lcmenupro-navigation .menu .sub-menu {
+	-webkit-transform: perspective(1000) rotate3d(1,0,0,-70deg);
+	-webkit-transform-origin: 50% 0;
+}
+
+.lcmenupro-navigation .menu .sub-menu .sub-menu {
+   -webkit-transform: perspective(1000) rotate3d(0,1,0,70deg);
+   -webkit-transform-origin: 0 50%;
+}
+
+.lcmenupro-navigation li.menu-item-has-children:hover > .sub-menu {
+	-webkit-transform:perspective(400) rotate3d(0,0,0,0);
+}
+*/
+
+/* Slide-Down effect. */
+/*
+.lcmenupro-navigation .menu .sub-menu {
+	transition: opacity .6s cubic-bezier(0.22, 0.61, 0.36, 1), top .6s cubic-bezier(0.22, 0.61, 0.36, 1);;
+	top: -10px;
+}
+
+.lcmenupro-navigation li.menu-item-has-children:hover > .sub-menu .sub-menu {
+	top: -40px;
+}
+
+.lcmenupro-navigation li.menu-item-has-children:hover > .sub-menu {
+	top: 100%;
+}
+
+.lcmenupro-navigation li .sub-menu li.menu-item-has-children:hover > .sub-menu {
+	top: 0;
+}
+*/
+
+/* Slide-Up effect. */
+/*
+.lcmenupro-navigation .menu .sub-menu {
+	transition: opacity .6s cubic-bezier(0.22, 0.61, 0.36, 1), left .6s cubic-bezier(0.22, 0.61, 0.36, 1);;
+	top: 250%;
+}
+
+.lcmenupro-navigation li.menu-item-has-children:hover > .sub-menu .sub-menu {
+	top: 80px;
+}
+
+.lcmenupro-navigation li.menu-item-has-children:hover > .sub-menu {
+	top: 100%;
+}
+
+.lcmenupro-navigation li .sub-menu li.menu-item-has-children:hover > .sub-menu {
+	top: 0;
+}
+*/
+
+/* Slide-Right effect. */
+/*
+.lcmenupro-navigation .menu .sub-menu {
+	transition: opacity .6s cubic-bezier(0.22, 0.61, 0.36, 1), left .6s cubic-bezier(0.22, 0.61, 0.36, 1);;
+	left: -40px;
+}
+
+.lcmenupro-navigation li.menu-item-has-children:hover > .sub-menu .sub-menu {
+	left: 80%;
+}
+
+.lcmenupro-navigation li.menu-item-has-children:hover > .sub-menu {
+	left: 0;
+}
+
+.lcmenupro-navigation li .sub-menu li.menu-item-has-children:hover > .sub-menu {
+	left: 99%;
+}
+*/
+
+
+
+.lcmenupro-navigation .menu .sub-menu .sub-menu {
+	left: 99%; /* Don't make it 100% as it's not stable on some movements. */
+	top: 0;
+}
+
+.lcmenupro-navigation li.menu-item-has-children:hover > .sub-menu,
+.lcmenupro-navigation li.menu-item-has-children.lc-menu-hover > .sub-menu {
+	visibility:visible;
+	opacity:1;
+}
+
+
+/* Mobile Navigation Styling */
+.lcmenupro-mobile-navigation {
+	display: block;
+	/*background: black;*/
+	width: 300px;
+	position: fixed;
+	top: 0;
+	/*padding: 20px;*/
+	height: 100vh;
+	z-index: 999999; /* WP Admin bar has z-index 99999 */
+
+	/*left: 100%;*/
+	right: -300px;
+	transition: right .5s ease-in-out;
+}
+
+.admin-bar .lcmenupro-mobile-navigation {
+	top: 32px;
+}
+
+.admin-bar.dslca-enabled .lcmenupro-mobile-navigation {
+	top: 0;
+}
+
+.lcmenupro-mobile-navigation.open {
+	/*left: auto;*/
+	right: 0;
+}
+
+.lcmenupro-mobile-inner {
+	overflow: auto;
+   height: 100vh;
+}
+
+.lcmenupro-mobile-inner .lcmenu-mobile-close-hook {
+	position: absolute;
+	right: 0;
+	top: 0;
+	background: rgba(0,0,0,.3);
+	color: rgba(255, 255, 255, 0.3);
+	/*padding: 12px;*/
+	cursor: pointer;
+}
+
+.lcmenupro-mobile-navigation .lcmenupro-mobile-menu a {
+	line-height: 1.3;
+}
+
+/* Menu descriptions are hidden on mobile */
+.lcmenupro-mobile-inner .menu-item-description {
+	display: none;
+}
+
+
+
+.lcmenupro-icon {
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+	stroke-width: 0;
+	stroke: currentColor;
+	fill: currentColor;
+	vertical-align: middle;
+}
+
+.lcmenu-mobile-hook {
+	cursor: pointer;
+}
+
+/*.lcmenupro-mobile-menu {
+	margin-top: 20px;
+}*/
+
+.lcmenupro-mobile-menu a {
+	color: rgba(255, 255, 255, 0.7);
+	display: inline-block;
+}
+
+.lcmenupro-mobile-menu .sub-menu {
+	display: none;
+}
+
+.lcmenupro-mobile-menu li.menu-item-has-children:hover > .sub-menu,
+.lcmenupro-mobile-menu li.menu-item-has-children.lc-menu-hover > .sub-menu {
+	display: block;
+}
+
+.lcmenupro-mobile-menu .sub-menu {
+	font-size: 90%;
+	padding: 6px 0 10px 0;
+}
+
+
+
+.lcmenu-mobile-logo {
+	text-align: center;
+	/*padding: 30px 30px 0px;*/
+}
+
+.lcmenu-mobile-logo img {
+	max-height: 100%;
+}
+
+.lcmenupro-site-overlay {
+	position: fixed;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	right: 0;
+
+	z-index: 999;
+	display: none;
+
+	opacity: 0.8;
+}
+
+/**
+ * Menu Container.
+ */
+
+/*.lcmenu-pro {
+	display: flex;
+}
+*/
+
+/**
+ * Icons in menu.
+ */
+
+/* Disable icon font styling for the menu item block */
+.menu-item[class^="dslc-icon-"],
+.menu-item[class*=" dslc-icon-"] {
+	font-weight: inherit;
+	font-family: inherit;
+	font-size: inherit;
+	font-style: inherit;
+	text-decoration: inherit;
+	-webkit-font-smoothing: inherit;
+	display: inherit;
+	width: inherit;
+	height: inherit;
+	line-height: inherit;
+	vertical-align: inherit;
+	background-image: inherit;
+	background-position: inherit;
+	background-repeat: inherit;
+	margin-top: inherit;
+}
+
+/* Re-apply icon font styling to the inner element */
+
+.menu-item[class^="dslc-icon-"]:before,
+.menu-item[class*=" dslc-icon-"]:before {
+	font-family: DSLCFontAwesome;
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: inherit;
+	-webkit-font-smoothing: antialiased;
+
+	display: inline;
+	width: auto;
+	height: auto;
+	line-height: normal;
+	vertical-align: baseline;
+	background-image: none;
+	background-position: 0% 0%;
+	background-repeat: repeat;
+}
+
+/* Left position menu */
+#dslc-content .lcmenupro-navigation.lcmenupro-sub-position-left .menu ul.sub-menu {
+	left: 0 !important;
+	right: auto;
+}
+
+/* Right position menu */
+#dslc-content .lcmenupro-navigation.lcmenupro-sub-position-right .menu ul.sub-menu {
+	right: 0;
+	left: auto !important;
+}
+
+/* Center position menu */
+#dslc-content .lcmenupro-navigation.lcmenupro-sub-position-center .menu ul.sub-menu {
+	left: 50% !important;
+	transform: translateX(-50%);
+}
+
+.dslca-enabled .lcmenu-mobile-hook.dslc-hide-on-desktop {
+	display: none !important;
+}
+
+.dslca-enabled.dslc-res-tablet .lcmenu-mobile-hook.dslc-hide-on-desktop {
+	display: block !important;
+}
+
+.dslca-enabled.dslc-res-phone .lcmenu-mobile-hook.dslc-hide-on-desktop {
+	display: block !important;
+}
+
+.lcmenupro-navigation .menu-item-description {
+	display: block;
+}
+
+/*li:not(.menu-type-columns)*/
+
+ul.sub-menu li:hover,
+ul.sub-menu li:hover > a,
+ul.sub-menu li > a:hover,
+ul.sub-menu li:hover::before {
+	cursor: pointer;
+}
+
+.menu > li.menu-type-columns .sub-menu .menu-item-has-children,
+.menu > li.menu-type-columns .sub-menu .menu-item-has-children > a {
+	cursor: default;
+}
+
+/*.lcmenupro-navigation .menu a[href="#"] {
+	cursor: default;
+}*/
+
+/* Disable any border width styling in multi-columns. */
+#dslc-content .menu .menu-type-columns ul li {
+	border-width: 0;
+}
+
+#dslc-content .menu ul li:last-child {
+	border-bottom-width: 0;
+}
+
+/*.lcmenupro-navigation ul.menu li ul.sub-menu li.menu-item-has-children:hover {
+	background-color: transparent !important;
+}*/
+
+/**
+ * Show On / Hide On (media queries)
+ * Default LC show/hide classes are not working properly with menu container,
+ * as menu is display:flex, not display:block;
+ */
+
+/* Desktop */
+@media only screen and (min-width : 1025px) {
+	.dslca-enabled .lcmenupro-inner .menu.dslc-hide-on-desktop {
+		display: none !important;
+	}
+}
+
+/**
+ * Third level menu - https://github.com/lumbermandesigns/lc-menu-pro/issues/22
+ */
+
+#dslc-content .lcmenupro-navigation .menu > li:not(.menu-type-columns) ul.sub-menu li ul.sub-menu {
+	left: 100%;
+}
+
+body .lcmenupro-navigation .menu li.menu-type-columns .sub-menu .sub-menu .sub-menu li {
+	flex-wrap: wrap;
+}
+
+#dslc-content .menu > li.menu-type-columns ul.sub-menu li.menu-item-has-children ul.sub-menu li.menu-item-has-children > a {
+	margin: 0;
+}

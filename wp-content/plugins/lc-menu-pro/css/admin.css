@@ -1,0 +1,164 @@
+/**
+ * CSS styles for admin area.
+ * WP Admin > Appearance > Menu
+ */
+
+ /*.dslc-open-icons-button {
+     float: right;
+     margin: 22px 14px 6px;
+ }*/
+
+.dslc-open-icons-button .button .dashicons{
+	margin-top: 5px;
+	margin-left: -6px;
+	font-size: 16px;
+}
+
+.dslc-columns-width {
+	display: none;
+}
+
+/*.dslc-columns-control:before {
+	display: table;
+	content: '';
+
+}
+*/
+.dslc-current-icon {
+	font-size: 18px;
+	line-height: 1!important;
+	vertical-align: middle!important;
+	margin-right: 0px;
+	top: -2px;
+	left: -3px;
+	position: relative;
+}
+
+
+
+.menu-controls-divider {
+	float: left;
+	clear: both;
+	width: 96%;
+	margin-top: 20px;
+	border-width: 1px 0 0 0;
+	margin-bottom: 20px;
+	opacity: .5;
+}
+
+
+ /**
+ * Icons Modal
+ */
+
+ .dslca-modal {
+ 	background: #fff;
+ 	border-radius: 3px;
+ 	color: #444;
+ 	display: none;
+ 	padding: 14px 17px;
+ 	position: absolute;
+ 	bottom: 55px;
+ 	-moz-box-shadow: 0 1px 6px rgba(0,0,0,.2); /* drop shadow */
+ 	-webkit-box-shadow: 0 1px 6px rgba(0,0,0,.2); /* drop shadow */
+ 	box-shadow: 0 1px 6px rgba(0,0,0,.2); /* drop shadow */
+ 	z-index: 9999991;
+ }
+
+.dslca-modal.dslca-modal-icons {
+	width: 70%;
+	position: fixed;
+	padding:0;
+	overflow: scroll;
+	top: 2%;
+	left: 50%!important;
+	visibility: visible;
+	transform: translate(-50%, 0%);
+	z-index: 100001;
+}
+
+.dslca-prompt-modal-custom {
+    background: rgba( 255, 255, 255, 0.80 );
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 100000;
+    height: 100%;
+}
+
+/*.dslca-modal.dslca-modal-icons:before,
+.dslca-modal.dslca-modal-icons:after {
+	display: none;
+}*/
+
+
+	.dslca-modal-icons .modal-content {
+		height: 100%;
+	}
+
+	.dslca-modal-icons .dslc-icons-grid {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		text-align: left;
+	}
+
+	.dslca-modal-icons .icon-item {
+		display: inline-block;
+		width: 12.4%;
+		min-height: 120px;
+		padding: 0;
+		margin: 0 0 0 -1px;
+		vertical-align: top;
+		text-align: center;
+		border-left: 1px solid rgba(155, 155, 155, 0.05);
+		border-bottom: 1px solid rgba(155, 155, 155, 0.05);
+	}
+
+	.dslca-modal-icons .icon-item:hover {
+		-webkit-box-shadow: 0 1px 5px 0px rgba(68, 68, 68, 0.52);
+		-moz-box-shadow: 0 1px 5px 0px rgba(68, 68, 68, 0.52);
+		box-shadow: 0 1px 5px 0px rgba(68, 68, 68, 0.52);
+
+		cursor: pointer;
+	}
+
+	.dslca-modal-icons .icon-item:active {
+		-webkit-box-shadow: 0 1px 5px 0px #5890e5 inset;
+		 -moz-box-shadow: 0 1px 5px 0px #5890e5 inset;
+		  box-shadow: 0 1px 5px 0px #5890e5 inset;
+	}
+
+	.dslca-modal-icons .icon-item_icon {
+		display: inline-block; width: 100%;
+		padding: 28px 0 16px;
+		font-size: 24px;
+		opacity: .7;
+	}
+
+	.dslca-modal-icons .icon-item:hover .icon-item_icon {
+		opacity: 1;
+	}
+
+	.dslca-modal-icons .icon-item_name {
+		opacity: .35;
+		display: inline-block;
+		font-family: 'Open Sans', sans-serif;
+		font-size: 12px;
+		line-height: 1.25;
+		padding: 5px 8px 12px;
+	}
+
+	.dslca-modal-icons .set-heading {
+		text-transform: uppercase;
+		padding: 30px;
+		text-align: center;
+		letter-spacing: 6px;
+		font-family: 'Open Sans', sans-serif;
+		font-size: 16px;
+		font-weight: 300;
+		line-height: 1.25;
+	}

@@ -1,0 +1,699 @@
+/**
+ * Theme Name: SEOWP
+ * Styles used in the WP admin area for custom theme panels or some
+ * bundled plugin or WordPress UI elements style improvements
+ *
+ * ----------------------------------------------------------------------
+ * Quick setup guide on theme activation
+ */
+
+.lbmnadmin-icon-checkmark {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+
+.lbmnadmin-icon-checkmark:before {
+	content: "\e000";
+}
+
+div.lumberman-message {
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-radius:3px;
+
+	/*-moz-box-shadow:inset 0 0 35px rgba(0,0,0,0.005);
+	-webkit-box-shadow:inset 0 0 35px rgba(0,0,0,0.005);
+	box-shadow:inset 0 0 35px rgba(0,0,0,0.005);*/
+
+	box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+	background: #FFF url(./design/images/theme-installer-image.png) no-repeat 6% 60px;
+	background-size: 25%!important;
+
+	/*border:2px solid #43B5E7;*/
+	overflow:hidden;
+	margin-top: 15px!important;
+	padding:10px 0!important;
+	position:relative;
+	z-index:1;
+}
+
+.lumberman-message .message-container {
+	margin:0 auto;
+	max-width:960px;
+	overflow:hidden;
+	padding: 40px 10px  40px 34%;
+	text-align:left;
+}
+
+@media screen and (max-width: 782px) {
+	div.lumberman-message {
+		background-image:none;
+	}
+
+	.lumberman-message .message-container {
+		padding-left: 40px;
+	}
+}
+
+.lumberman-message .before-header {
+	margin-bottom: 20px;
+
+	text-transform: uppercase;
+	letter-spacing: 1px;
+
+	color: #AFAFAF;
+}
+
+.lumberman-message  h4,
+.lumberman-message  h5
+{
+	color:#232627;
+	font-family: HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",sans-serif;
+	margin:5px 10px 5px 0;
+	vertical-align:middle;
+
+	font-weight: 200;
+	font-size: 26px;
+	line-height:  1.125;
+}
+
+.lumberman-message h5 {
+	font-size: 16px;
+	line-height: 1.4;
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+
+.lumberman-message .lbmn-wizzard-step {
+	margin: 0 0 16px;
+	position: relative;
+}
+
+.lumberman-message .step {
+	position: absolute;
+	font-size: 19px;
+	line-height: 19px;
+	float: left;
+	display: inline-block;
+	font-weight: 200;
+	margin-right: 20px;
+	margin-top: 2px;
+	border: 1px solid #EEE;
+	border-radius: 200px;
+	padding: 6px;
+
+	min-width: 19px;
+	text-align: center;
+}
+
+.lumberman-message .customspinner {
+	position: absolute;
+	top: 10px;
+	left: 7px;
+	display: none;
+}
+
+.lumberman-message .loading .number {
+	opacity: 0;
+}
+
+.lumberman-message .loading .customspinner {
+	display: block;
+}
+
+.lumberman-message .details {
+	padding: 40px 30px 40px 70px;
+	font-size: 14px;
+	line-height: 1.5;
+	background: #f5f1e9;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	box-shadow: 0px 4px 4px rgba(68, 52, 19, 0.3);
+	border: solid 1px #fdf9f1;
+}
+
+.lumberman-message .details .checkup-fail {
+	color: #D54E21;
+}
+
+.lumberman-message .details .checkup-fail.non-critical {
+	color: #444;
+}
+
+#pre-install-checkup-details .dashicons {
+	position: absolute;
+	margin-left: -28px;
+	opacity: .5;
+}
+
+.lumberman-message .error {
+	display: inline-block;
+	max-width: 550px;
+	padding: 14px 18px;
+	background: rgba(255, 0, 0, 0.09);
+	border-radius: 3px;
+	margin-top: 10px;
+	/*margin-left: 50px;*/
+	border: solid 1px #FCB6AC;
+}
+
+.lumberman-message .error .error-heading {
+	color: #a0483b;
+	display: block;
+	font-size: 125%;
+	font-weight: bolder;
+	margin-bottom: 14px;
+	margin-top: 6px;
+
+}
+
+.lumberman-message .error ul {
+	list-style: inside none disc;
+}
+
+/* Special design for completed steps */
+
+.lumberman-message .step-completed .step {
+	background: #43B5E7;
+	border-color: #43B5E7;
+	color: #FFF;
+}
+
+.lumberman-message .step-completed .step .number {
+	display: none;
+}
+
+.lumberman-message .step-completed .step:after {
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	content: "✓";
+}
+
+.lumberman-message .step-completed .step-body {
+	opacity: .4;
+}
+
+.lumberman-message .lbmn-wizzard-step .step-main,
+.lumberman-message .lbmn-wizzard-step .step-body  {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	align-items: center;
+}
+
+.lumberman-message .step-body {
+	margin-left: 50px;
+	display: inline-block;
+}
+
+.lumberman-message .lbmn-wizzard-step .step-secondary {
+	width: 100%;
+   /*min-height: 40px;*/
+   display: none;
+   position: relative;
+}
+
+.lumberman-message .lbmn-wizzard-step.loading .step-secondary {
+   display: block;
+}
+
+.lumberman-message .step-description {
+	display: inline-block;
+	max-width: 300px;
+	margin-top: 0;
+	line-height: 1.4;
+}
+
+@media screen and (max-width: 782px) {
+	.lumberman-message .step-description {
+		display: none;
+	}
+}
+
+.lumberman-message .step-body .button {
+	font-size: 14px;
+	padding: 0 12px!important;
+	margin-right: 20px;
+	line-height: 32px!important;
+	height: 35px;
+
+	/*vertical-align: top!important;*/
+	text-decoration: none!important;
+
+	min-width: 200px;
+	text-align: center;
+}
+
+.lumberman-message .step-support {
+	margin-top: 30px;
+}
+
+.lumberman-message .step-support .step-body {
+	margin-left: 0;
+}
+
+.lumberman-message .details li {
+	margin-top: 30px;
+}
+
+.lumberman-message .details .button {
+	margin-top: 6px;
+	margin-right: 4px;
+}
+
+div.lumberman-message a,
+#setting-error-tgmpa a.button {
+	text-decoration: none;
+	font-weight: normal;
+}
+
+@media screen and (min-width: 1550px) {
+	div.lumberman-message {
+		background-size: 23%!important;
+		background-position-x: 9%;
+	}
+}
+
+@media screen and (min-width: 1650px) {
+	div.lumberman-message {
+		background-size: 19%!important;
+    	background-position-x: 15%;
+	}
+}
+
+@media screen and (min-width: 1750px) {
+	div.lumberman-message {
+		background-size: 19%!important;
+    	background-position-x: 17%;
+	}
+}
+
+@media screen and (min-width: 1850px) {
+	div.lumberman-message {
+		background-size: 19%!important;
+    	background-position-x: 20%;
+	}
+}
+
+.error-log-window {
+    background: none repeat scroll 0 0 rgb(255, 255, 255);
+    border: 2px solid rgb(255, 0, 0);
+    border-radius: 3px;
+    margin-bottom: 40px;
+    padding: 40px;
+}
+
+/* ------------------- */
+/* Import progress bar */
+
+.import-progress {
+	display: block;
+	border: 1px solid #eee;
+	width: 198px;
+	margin-left:50px;
+	top:-15px;
+	border-radius: 3px;
+	position: absolute;
+	overflow: hidden;
+	opacity: 0;
+}
+
+.progress-indicator {
+	height:4px;
+	width:0%;
+	display: block;
+	line-height: 4px;
+	background: #aaa;
+
+	-webkit-transition: width .6s;
+	transition: width .6s;
+
+}
+
+.import-progress-desc {
+	display: block;
+	max-width: 400px;
+	margin-left:50px;
+	margin-top:26px;
+	/*position: absolute;*/
+	color: #B3B5B5;
+	font-size: 12px;
+	opacity: 0;
+}
+
+.loading .import-progress-desc,
+.loading .import-progress {
+	opacity: 1;
+}
+
+.step-demoimport, .step-basic_config {
+	-webkit-transition: padding-bottom .6s;
+	transition: padding-bottom .6s;
+}
+
+/*.step-demoimport.loading, .step-basic_config.loading {
+	padding-bottom: 40px;
+}*/
+
+
+/**
+ * ----------------------------------------------------------------------
+ * Clean Mega Main Menu plugin from unneeded setting panels
+ */
+
+.mm_theme_options_form .mega_main_menu_optionstopbar_menu_options,
+.mm_theme_options_form .mega_main_menu_optionsheader-menu_menu_options,
+.mm_theme_options_form div[class*="mega_menu_logo"],
+.mm_theme_options_form .logo_src,
+.mm_theme_options_form .logo_height,
+.mm_theme_options_form .mega_main_menu_optionstopbar_menu_skin,
+.mm_theme_options_form .mega_main_menu_optionsheader-menu_menu_skin,
+.mm_theme_options_form .indefinite_location_mode,
+.mm_theme_options_form .coercive_styles,
+.mm_theme_options_form .menu_item a[href="#support"] /* support tab */
+ {
+	/*display: none;*/
+}
+
+/**
+ * ----------------------------------------------------------------------
+ * Menu page improvements
+ * Add content type name to the categories panels
+ */
+
+/* hide LC custom content types category panels by default */
+
+.nav-menus-php #add-dslc_staff_cats,
+.nav-menus-php #add-dslc_galleries_cats,
+.nav-menus-php #add-dslc_projects_cats,
+.nav-menus-php #add-dslc_downloads_tags,
+.nav-menus-php #add-dslc_downloads_cats,
+.nav-menus-php #add-dslc_testimonials_cats,
+.nav-menus-php #add-dslc_partners_cats,
+
+.nav-menus-php #add-dslc_templates,
+.nav-menus-php #add-dslc_projects,
+.nav-menus-php #add-dslc_galleries,
+.nav-menus-php #add-dslc_staff,
+.nav-menus-php #add-dslc_downloads,
+.nav-menus-php #add-dslc_testimonials,
+.nav-menus-php #add-dslc_partners
+{
+	display: none;
+}
+
+
+/**
+ * ----------------------------------------------------------------------
+ * SVG images WordPress bug
+ */
+/* Cause problems in WP Admin > Plugins
+
+img[src*=".svg"] {
+	width: auto;
+	height: auto;
+}
+*/
+
+/**
+ * ----------------------------------------------------------------------
+ * Fix admin bar on mobile
+ */
+
+ .wp-admin #wpadminbar {
+	 top:0;
+ }
+
+ /**
+  * Major Update Notice
+  */
+
+
+.step-backup:not(.step-completed) {
+	color:#D54E21;
+}
+
+ /**
+  * T M G A plugin table styles
+  */
+
+#tgmpa-plugins td.column-type {
+   color: #b4b9be;
+   font-size: 12px;
+   vertical-align: middle;
+	line-height: 2;
+}
+
+ #tgmpa-plugins td.column-type a {
+   margin-right: 14px;
+}
+
+
+/**
+ * Rotation icon animation
+ */
+@-webkit-keyframes rotating /* Safari and Chrome */ {
+  from {
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes rotating {
+  from {
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+.rotating {
+  -webkit-animation: rotating 2s linear infinite;
+  -moz-animation: rotating 2s linear infinite;
+  -ms-animation: rotating 2s linear infinite;
+  -o-animation: rotating 2s linear infinite;
+  animation: rotating 2s linear infinite;
+}
+
+.column-plugin {
+	position: relative;
+}
+
+#tgmpa-plugins .widefat td {
+	padding-right: 12px;
+}
+
+.lbmn-installer-working,
+.lbmn-installer-done,
+.lbmn-installer-error {
+	position: absolute;
+	right: -4px;
+	top: 9px;
+	color: #b4b9be;
+}
+
+.lbmn-installer-error {
+	color: #DC3232;
+}
+
+.lbmn-installer-done {
+   color: #46B450;
+}
+
+.lbmn-installer-error-message {
+	position: absolute;
+	color: #DC3232;
+	text-decoration: underline;
+	right: 40px;
+	top: 18px;
+}
+
+.lbmn-installer-error-solution {
+	margin-top: 10px;
+	display: inline-block;
+	padding-top: 10px;
+	border-top: solid 1px #e5e5e5;
+}
+
+#tgmpa-plugins .lbmn-installer-error-explanation {
+    margin: 20px 0;
+    padding: 12px;
+}
+
+.lbmn-plugin-autoupdate-iframe {
+	display: none;
+}
+
+.theme-update-menu-icon {
+	color: #D54E21;
+	margin-bottom: -4px;
+	margin-top: -2px;
+	width: 20px;
+	height: 20px;
+	font-size: 20px;
+	margin-left: 2px;
+}
+
+div.lbmn-themeupdate-notification {
+	display: flex;
+	position: relative;
+	padding: 26px;
+	align-items: center;
+	background: #FFF url(./design/images/pattern-web-ransparent.png) repeat right  -173px;
+}
+
+div.lbmn-themeupdate-notification:before {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	background: linear-gradient(to right, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); 
+}
+
+.lbmn-themeupdate-notification .dashicons {
+	font-size: 50px;
+	width: 50px;
+	opacity: .2;
+	height: 50px;
+	margin-right: 20px;
+	margin-left: -6px;
+	z-index: 1;
+}
+
+.lbmn-themeupdate-notification .button {
+	margin-left: 40px;
+	z-index: 1;
+}
+
+.lbmn-themeupdate-notification div {
+	z-index: 1;
+}
+
+.lbmn-themeupdate-notification h3 {
+	margin: 0;
+	font-size: 21px;
+	font-weight: 400;
+	line-height: 1.2;
+}
+
+.lbmn-themeupdate-notification p {
+	font-size: 14px;
+	margin: 10px 0 0 0;
+	color: #72777c;
+}
+
+/**
+ * Theme update notice styling on WordPress Code updates page.
+ */
+
+.lbmn-theme-update-code-update .button {
+	margin-bottom: 20px;
+}
+
+.lbmn-theme-update-code-update h4 {
+	margin-bottom: 0;
+}
+
+
+/* Hide standard TGMPA notices.
+	They looks confusing. We want users to follow our installer instead. */
+#setting-error-tgmpa {
+	display: none;
+}
+
+/**
+ * Fixed: https://github.com/lumbermandesigns/SEOWP/issues/78
+ */
+.lbmn-tgmpa-notice #setting-error-tgmpa {
+	display: block;
+}
+
+.lbmn-tgmpa-notice.appearance_page_seowp-theme-install #setting-error-tgmpa,
+.lbmn-tgmpa-notice.appearance_page_seowp-theme-update #setting-error-tgmpa {
+	display: none;
+}
+
+/**
+ * Hide NF3 is coming banner from Ninja Forms.
+ */
+.update-nag.nf-admin-notice {
+	display: none;
+}
+
+/**
+ * Automatic plugins installation.
+ */
+
+#lbmn-tgmpa-wait {
+	color: #D54E21;
+	padding: 21px 6px;
+	/*text-align: center;*/
+	font-size: 17px;
+	clear: both;
+	font-weight: 300;
+}
+
+#lbmn-tgmpa-wait .dashicons { 
+	margin-right: 10px;
+}
+
+body.lbmn-autoinstall .subsubsub,
+body.lbmn-autoinstall #tgmpa-plugins .tablenav,
+body.lbmn-autoinstall #tgmpa-plugins a {
+	display: none;
+}
+
+/* Hide text of the 'Type' column */
+body.lbmn-autoinstall th.column-type {
+	color:#fff;
+}
+
+.lbmn-can-hide-wizzard {
+	padding: 20px 20px 16px;
+	background: #e5e5e5;
+	font-size: 14px;
+	line-height: 1.6;
+}
+
+.lbmn-can-hide-wizzard button {
+	margin-top: -5px!important;
+	margin-left: 10px!important;
+}
+
+.lbmn-can-hide-wizzard button .dashicons {
+	height: 26px;
+	width: 23px;
+	line-height: 26px;
+}
+
+.lbmn-notice-nf {
+	margin-left: 0;
+}

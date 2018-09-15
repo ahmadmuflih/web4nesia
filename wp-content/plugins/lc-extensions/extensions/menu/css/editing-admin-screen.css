@@ -1,0 +1,19 @@
+/**
+ * CSS styles for the LC editing admin area.
+ */
+
+
+/* ,a[data-id="submenu_>_column_>_item_styling"] */
+a[data-id="submenu_block_styling"]:before,
+a[data-id="submenu_columns_styling"]:before,
+a[data-id="mobile_menu_styling"]:before {
+	display: block;
+	position: relative;
+	content: '';
+	background: rgba(0, 0, 0, 0.31);
+	height: 16px;
+	float: left;
+	margin: 0 20px 0 0;
+	border-radius: 99px;
+	width: 2px;
+}

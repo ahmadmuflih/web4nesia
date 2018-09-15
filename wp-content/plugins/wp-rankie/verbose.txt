@@ -1,0 +1,47 @@
+*   Trying 172.217.194.103...
+* TCP_NODELAY set
+* Connected to www.google.com (172.217.194.103) port 443 (#0)
+* ALPN, offering http/1.1
+* Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH
+* successfully set certificate verify locations:
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* SSL connection using TLSv1.2 / ECDHE-ECDSA-AES128-GCM-SHA256
+* ALPN, server accepted to use http/1.1
+* Server certificate:
+*  subject: C=US; ST=California; L=Mountain View; O=Google LLC; CN=www.google.com
+*  start date: Aug 14 07:44:35 2018 GMT
+*  expire date: Oct 23 07:38:00 2018 GMT
+*  subjectAltName: host "www.google.com" matched cert's "www.google.com"
+*  issuer: C=US; O=Google Trust Services; CN=Google Internet Authority G3
+*  SSL certificate verify ok.
+> GET /search?q=andi+agus&btnG=Search&client=ubuntu&channel=fs&num=100&ie=utf-8&oe=utf-8&gfe_rd=cr&ei=sw9CVbCuPKaA8QfX0ICYBA&gws_rd=cr HTTP/1.1
+Host: www.google.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_4) AppleWebKit/601.5.17 (KHTML, like Gecko) Version/9.1 Safari/601.5.17
+Accept: */*
+Referer: https://www.google.com
+
+< HTTP/1.1 200 OK
+< Content-Type: text/html; charset=UTF-8
+< Date: Tue, 04 Sep 2018 22:42:50 GMT
+< Expires: -1
+< Cache-Control: private, max-age=0
+< Strict-Transport-Security: max-age=86400
+< P3P: CP="This is not a P3P policy! See g.co/p3phelp for more info."
+< Server: gws
+< X-XSS-Protection: 1; mode=block
+< X-Frame-Options: SAMEORIGIN
+* Added cookie 1P_JAR="2018-09-04-22" for domain google.com, path /, expire 1538692970
+< Set-Cookie: 1P_JAR=2018-09-04-22; expires=Thu, 04-Oct-2018 22:42:50 GMT; path=/; domain=.google.com
+* Added cookie CGIC="CgZ1YnVudHUaAmZzIgMqLyo" for domain google.com, path /complete/search, expire 1551879446
+< Set-Cookie: CGIC=CgZ1YnVudHUaAmZzIgMqLyo; expires=Wed, 06-Mar-2019 13:37:26 GMT; path=/complete/search; domain=.google.com; HttpOnly
+* Added cookie CGIC="CgZ1YnVudHUaAmZzIgMqLyo" for domain google.com, path /search, expire 1551879446
+< Set-Cookie: CGIC=CgZ1YnVudHUaAmZzIgMqLyo; expires=Wed, 06-Mar-2019 13:37:26 GMT; path=/search; domain=.google.com; HttpOnly
+* Added cookie NID="138=blduPxECuD5isIaYUYBqEZX_X0XVFZsHPQowkpGZf3IUtB484XyG7AJxWVLs5klomHrM9fJG6vLA_BYo2mi6RCV2SrPNGRDiU-5uuYijxoCwTlcdIlaPYtzE52zXItIM" for domain google.com, path /, expire 1551912170
+< Set-Cookie: NID=138=blduPxECuD5isIaYUYBqEZX_X0XVFZsHPQowkpGZf3IUtB484XyG7AJxWVLs5klomHrM9fJG6vLA_BYo2mi6RCV2SrPNGRDiU-5uuYijxoCwTlcdIlaPYtzE52zXItIM; expires=Wed, 06-Mar-2019 22:42:50 GMT; path=/; domain=.google.com; HttpOnly
+< Alt-Svc: quic=":443"; ma=2592000; v="44,43,39,35"
+< Accept-Ranges: none
+< Vary: Accept-Encoding
+< Transfer-Encoding: chunked
+< 
+* Connection #0 to host www.google.com left intact

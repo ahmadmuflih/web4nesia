@@ -1,0 +1,17 @@
+<wpml-config>
+        <admin-texts>
+        <key name="ninja_forms_settings"> 
+                <key name="req_div_label" />
+                <key name="req_field_symbol" />
+                <key name="req_error_label" />
+                <key name="req_field_error" />
+                <key name="spam_error" />
+                <key name="honeypot_error" />
+                <key name="timed_submit_error" />
+                <key name="javascript_error" />
+                <key name="invalid_email" />
+                <key name="process_label"/>
+                <key name="password_mismatch" />
+        </key>
+        </admin-texts>
+</wpml-config>

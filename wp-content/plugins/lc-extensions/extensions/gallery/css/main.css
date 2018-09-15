@@ -1,0 +1,20 @@
+.sklc-gallery-images {
+
+}
+
+	.sklc-gallery-image {
+
+	}
+
+		.sklc-gallery-image img {
+			display: block;
+		}
+
+.sklc-gallery-images-center-enabled {
+	text-align: center;
+}
+
+.sklc-gallery-images-center-enabled.sklc-gallery-images-count-1 .sklc-gallery-image {
+	float: none;
+	display: inline-block;
+}

@@ -1,0 +1,2309 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: SEO WP Theme\n"
+"POT-Creation-Date: 2015-12-15 01:53-0700\n"
+"PO-Revision-Date: 2016-01-04 20:25+0100\n"
+"Last-Translator: Tfingi <support@tfingi.com>\n"
+"Language-Team: Lumberman Designs <support@lumberman.co.uk>\n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.5\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;_nx\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../content.php:60 ../inc/plugins-integration/livecomposer.php:1734
+#: ../single-lbmn_footer.php:77
+msgid "Pages:"
+msgstr "Pagine"
+
+#: ../functions.php:133
+msgid "Top Bar"
+msgstr "Barra Top"
+
+#: ../functions.php:134 ../inc/customizer/customizer.php:2271
+msgid "Header"
+msgstr "Testata"
+
+#: ../functions.php:327 ../inc/plugins-integration/class-tgmpa.php:333
+msgid "Install Required Plugins"
+msgstr "Installa Plugin Richiesti"
+
+#: ../functions.php:328 ../inc/plugins-integration/class-tgmpa.php:334
+msgid "Install Plugins"
+msgstr "Installa Plugin"
+
+#: ../functions.php:329 ../inc/plugins-integration/class-tgmpa.php:335
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr "Installazione Plugin: %s"
+
+#: ../functions.php:330 ../inc/plugins-integration/class-tgmpa.php:336
+msgid "Something went wrong with the plugin API."
+msgstr "Qualcosa è andato storto con l'API del plugin."
+
+#: ../functions.php:345 ../inc/plugins-integration/class-tgmpa.php:397
+msgid "Return to Required Plugins Installer"
+msgstr "Torna all'Installazione di Plugin Richiesti"
+
+#: ../functions.php:346 ../inc/plugins-integration/class-tgmpa.php:399
+#: ../inc/plugins-integration/class-tgmpa.php:3029
+msgid "Plugin activated successfully."
+msgstr "Plugin attivati con successo. "
+
+#: ../functions.php:347
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr "Tutti i plugin installati e attivati con successo. %s"
+
+#: ../inc/customizer/customizer.php:681
+msgid "Repeat"
+msgstr "Ripeti"
+
+#: ../inc/customizer/customizer.php:682
+msgid "Repeat Horizontal"
+msgstr "Ripeti Orizzontalmente"
+
+#: ../inc/customizer/customizer.php:683
+msgid "Repeat Vertical"
+msgstr "Ripeti Verticalmente"
+
+#: ../inc/customizer/customizer.php:684
+msgid "Do NOT Repeat"
+msgstr "NON ripetere"
+
+#: ../inc/customizer/customizer.php:688
+msgid "Top Left"
+msgstr "Top Sinistra"
+
+#: ../inc/customizer/customizer.php:689
+msgid "Top Center"
+msgstr "Top Centro"
+
+#: ../inc/customizer/customizer.php:690
+msgid "Top Right"
+msgstr "Top Destra"
+
+#: ../inc/customizer/customizer.php:692
+msgid "Center Left"
+msgstr "Centro Sinistra"
+
+#: ../inc/customizer/customizer.php:693 ../inc/customizer/customizer.php:1602
+#: ../inc/plugins-integration/ninja-forms.php:1112
+#: ../inc/plugins-integration/ninja-forms.php:1774
+#: ../inc/plugins-integration/ninja-forms.php:2174
+#: ../inc/plugins-integration/ninja-forms.php:2429
+#: ../inc/plugins-integration/ninja-forms.php:2635
+msgid "Center"
+msgstr "Centro"
+
+#: ../inc/customizer/customizer.php:694
+msgid "Center Right"
+msgstr "Centro Destra"
+
+#: ../inc/customizer/customizer.php:696
+msgid "Bottom Left"
+msgstr "In fondo Sinistra"
+
+#: ../inc/customizer/customizer.php:697
+msgid "Bottom Center"
+msgstr "In fondo Centro"
+
+#: ../inc/customizer/customizer.php:698
+msgid "Bottom Right"
+msgstr "In fondo Destra"
+
+#: ../inc/customizer/customizer.php:702
+msgid "Scroll"
+msgstr "Scroll"
+
+#: ../inc/customizer/customizer.php:703
+msgid "Fixed"
+msgstr "Fixed"
+
+#: ../inc/customizer/customizer.php:708
+msgid "Original"
+msgstr "Originale"
+
+#: ../inc/customizer/customizer.php:709
+msgid "Cover"
+msgstr "Cover"
+
+#: ../inc/customizer/customizer.php:710
+msgid "Contain"
+msgstr "Contain"
+
+#: ../inc/customizer/customizer.php:1213
+msgid "&mdash; Select &mdash;"
+msgstr "&mdash; Seleziona &mdash;"
+
+#: ../inc/customizer/customizer.php:1430
+msgid "Open Library"
+msgstr "Apri Libreria"
+
+#: ../inc/customizer/customizer.php:1520
+msgid "Font preset "
+msgstr "Preset Font "
+
+#: ../inc/customizer/customizer.php:1562
+msgid "Oh man..."
+msgstr "Hey tu... "
+
+#: ../inc/customizer/customizer.php:1566
+msgid "100 Thin"
+msgstr "100 Thin"
+
+#: ../inc/customizer/customizer.php:1567
+msgid "200 Light"
+msgstr "200 Light"
+
+#: ../inc/customizer/customizer.php:1568
+msgid "300 Book"
+msgstr "300 Book"
+
+#: ../inc/customizer/customizer.php:1569
+msgid "400 Regular"
+msgstr "400 Regular"
+
+#: ../inc/customizer/customizer.php:1570
+msgid "500 Medium"
+msgstr "500 Medium"
+
+#: ../inc/customizer/customizer.php:1571
+msgid "600 DemiBold"
+msgstr "600 DemiBold"
+
+#: ../inc/customizer/customizer.php:1572
+msgid "700 Bold"
+msgstr "700 Bold"
+
+#: ../inc/customizer/customizer.php:1573
+msgid "800 ExtraBold"
+msgstr "800 ExtraBold"
+
+#: ../inc/customizer/customizer.php:1574
+msgid "900 Heavy"
+msgstr "900 Heavy"
+
+#: ../inc/customizer/customizer.php:1578 ../inc/customizer/customizer.php:1588
+msgid "Small"
+msgstr "Piccolo"
+
+#: ../inc/customizer/customizer.php:1579 ../inc/customizer/customizer.php:1589
+msgid "Medium"
+msgstr "Medio"
+
+#: ../inc/customizer/customizer.php:1580 ../inc/customizer/customizer.php:1590
+msgid "Large"
+msgstr "Largo"
+
+#: ../inc/customizer/customizer.php:1582
+msgid "UPPERCASE: SMALL"
+msgstr "MAIUSCOLO: PICCOLO"
+
+#: ../inc/customizer/customizer.php:1583
+msgid "UPPERCASE: MEDIUM"
+msgstr "MAIUSCOLO: MEDIO"
+
+#: ../inc/customizer/customizer.php:1584
+msgid "UPPERCASE: LARGE"
+msgstr "MAIUSCOLO: LARGO"
+
+#: ../inc/customizer/customizer.php:1601 ../inc/customizer/customizer.php:1607
+#: ../inc/plugins-integration/ninja-forms.php:200
+#: ../inc/plugins-integration/ninja-forms.php:371
+#: ../inc/plugins-integration/ninja-forms.php:766
+#: ../inc/plugins-integration/ninja-forms.php:943
+#: ../inc/plugins-integration/ninja-forms.php:1108
+#: ../inc/plugins-integration/ninja-forms.php:1281
+#: ../inc/plugins-integration/ninja-forms.php:1770
+#: ../inc/plugins-integration/ninja-forms.php:1845
+#: ../inc/plugins-integration/ninja-forms.php:2170
+#: ../inc/plugins-integration/ninja-forms.php:2282
+#: ../inc/plugins-integration/ninja-forms.php:2425
+#: ../inc/plugins-integration/ninja-forms.php:2500
+#: ../inc/plugins-integration/ninja-forms.php:2631
+msgid "Left"
+msgstr "Sinistra"
+
+#: ../inc/customizer/customizer.php:1603 ../inc/customizer/customizer.php:1609
+#: ../inc/plugins-integration/ninja-forms.php:192
+#: ../inc/plugins-integration/ninja-forms.php:363
+#: ../inc/plugins-integration/ninja-forms.php:758
+#: ../inc/plugins-integration/ninja-forms.php:935
+#: ../inc/plugins-integration/ninja-forms.php:1116
+#: ../inc/plugins-integration/ninja-forms.php:1273
+#: ../inc/plugins-integration/ninja-forms.php:1778
+#: ../inc/plugins-integration/ninja-forms.php:1837
+#: ../inc/plugins-integration/ninja-forms.php:2178
+#: ../inc/plugins-integration/ninja-forms.php:2274
+#: ../inc/plugins-integration/ninja-forms.php:2433
+#: ../inc/plugins-integration/ninja-forms.php:2492
+#: ../inc/plugins-integration/ninja-forms.php:2639
+msgid "Right"
+msgstr "Destra"
+
+#: ../inc/customizer/customizer.php:1608
+msgid "Above"
+msgstr "Sopra"
+
+#: ../inc/customizer/customizer.php:1610 ../inc/customizer/customizer.php:2119
+msgid "Disable"
+msgstr "Disabilita"
+
+#: ../inc/customizer/customizer.php:1611
+msgid "Disable Icons Globaly"
+msgstr "Disabilita Icone Globalmente"
+
+#: ../inc/customizer/customizer.php:1615 ../inc/customizer/customizer.php:1621
+#: ../inc/customizer/customizer.php:1823
+msgid "None"
+msgstr "Niente"
+
+#: ../inc/customizer/customizer.php:1616
+msgid "Smooth"
+msgstr "Smooth"
+
+#: ../inc/customizer/customizer.php:1617
+msgid "Sharp"
+msgstr "Sharp"
+
+#: ../inc/customizer/customizer.php:1622
+msgid "Unfold"
+msgstr "Unfold"
+
+#: ../inc/customizer/customizer.php:1623
+msgid "Fading"
+msgstr "Fading"
+
+#: ../inc/customizer/customizer.php:1624
+msgid "Scale"
+msgstr "Scala"
+
+#: ../inc/customizer/customizer.php:1625
+msgid "Down to Up"
+msgstr "Dal basso all'Alto"
+
+#: ../inc/customizer/customizer.php:1626
+msgid "Dropdown"
+msgstr "Menu a tendina"
+
+#: ../inc/customizer/customizer.php:1631
+msgid "Top-Left"
+msgstr "Top-Sinistra"
+
+#: ../inc/customizer/customizer.php:1632
+msgid "Top-Center"
+msgstr "Top-Centro"
+
+#: ../inc/customizer/customizer.php:1633
+msgid "Top-Right"
+msgstr "Top-Destra"
+
+#: ../inc/customizer/customizer.php:1635
+msgid "Botttom-Left"
+msgstr "In basso-Sinistra"
+
+#: ../inc/customizer/customizer.php:1636
+msgid "Botttom-Right"
+msgstr "In basso-Destra"
+
+#: ../inc/customizer/customizer.php:1651
+msgid "Notification panel"
+msgstr "Pannello Notifiche"
+
+#: ../inc/customizer/customizer.php:1651
+msgid "Site-wide notification panel settings"
+msgstr "Impostazioni Pannello notifiche su tutto il sito"
+
+#: ../inc/customizer/customizer.php:1652 ../inc/customizer/customizer.php:1674
+#: ../inc/customizer/customizer.php:1705 ../inc/customizer/customizer.php:1727
+msgid "Basic Settings"
+msgstr "Impostazioni di base"
+
+#: ../inc/customizer/customizer.php:1653 ../inc/customizer/customizer.php:1675
+#: ../inc/customizer/customizer.php:1827 ../inc/customizer/customizer.php:2095
+msgid "Enable"
+msgstr "Abilita"
+
+#: ../inc/customizer/customizer.php:1654 ../inc/customizer/customizer.php:1676
+#: ../inc/customizer/customizer.php:2096
+msgid "Height"
+msgstr "Altezza"
+
+#: ../inc/customizer/customizer.php:1657
+msgid "Message Elements"
+msgstr "Elementi Messaggio"
+
+#: ../inc/customizer/customizer.php:1659
+msgid "Message"
+msgstr "Messaggio"
+
+#: ../inc/customizer/customizer.php:1660
+msgid "Linked URL"
+msgstr "URL Linkato"
+
+#: ../inc/customizer/customizer.php:1663 ../inc/customizer/customizer.php:1678
+#: ../inc/customizer/customizer.php:1744 ../inc/customizer/customizer.php:1781
+msgid "Colors"
+msgstr "Colori"
+
+#: ../inc/customizer/customizer.php:1664 ../inc/customizer/customizer.php:1679
+#: ../inc/customizer/customizer.php:1708 ../inc/customizer/customizer.php:1715
+#: ../inc/customizer/customizer.php:1885 ../inc/customizer/customizer.php:2106
+#: ../inc/customizer/customizer.php:2108
+msgid "Background Color"
+msgstr "Colore Sfondo"
+
+#: ../inc/customizer/customizer.php:1665 ../inc/customizer/customizer.php:1782
+#: ../inc/customizer/customizer.php:2107 ../inc/customizer/customizer.php:2109
+#: ../inc/plugins-integration/ninja-forms.php:297
+#: ../inc/plugins-integration/ninja-forms.php:978
+#: ../inc/plugins-integration/ninja-forms.php:1207
+#: ../inc/plugins-integration/ninja-forms.php:1880
+#: ../inc/plugins-integration/ninja-forms.php:2317
+#: ../inc/plugins-integration/ninja-forms.php:2535
+msgid "Text Color"
+msgstr "Colore Testo"
+
+#: ../inc/customizer/customizer.php:1666
+msgid "Background Hover Color"
+msgstr "Colore Sfondo Hover"
+
+#: ../inc/customizer/customizer.php:1667
+msgid "Text Hover Color"
+msgstr "Colore Testo Hover"
+
+#: ../inc/customizer/customizer.php:1673
+msgid "Top bar"
+msgstr "Barra in alto"
+
+#: ../inc/customizer/customizer.php:1673
+msgid "Site-wide top panel settings"
+msgstr "Impostazioni pannello top su tutto il sito"
+
+#: ../inc/customizer/customizer.php:1680 ../inc/customizer/customizer.php:1745
+#: ../inc/customizer/customizer.php:1783 ../inc/customizer/customizer.php:1900
+#: ../inc/plugins-integration/ninja-forms.php:989
+msgid "Link Color"
+msgstr "Colore Link"
+
+#: ../inc/customizer/customizer.php:1681 ../inc/customizer/customizer.php:1746
+#: ../inc/customizer/customizer.php:1784 ../inc/customizer/customizer.php:1901
+msgid "Link Hover Color"
+msgstr "Colore Link Hover"
+
+#: ../inc/customizer/customizer.php:1682 ../inc/customizer/customizer.php:1747
+#: ../inc/customizer/customizer.php:1785
+msgid "Link Hover Background Color"
+msgstr "Colore Link Sfondo Hover"
+
+#: ../inc/customizer/customizer.php:1683 ../inc/customizer/customizer.php:1748
+msgid "Text Lines Color"
+msgstr "Colore Linee Testo"
+
+#: ../inc/customizer/customizer.php:1685 ../inc/customizer/customizer.php:1750
+msgid "Font"
+msgstr "Font"
+
+#: ../inc/customizer/customizer.php:1686 ../inc/customizer/customizer.php:1751
+#: ../inc/customizer/customizer.php:1790 ../inc/customizer/customizer.php:1905
+#: ../inc/customizer/customizer.php:1913 ../inc/customizer/customizer.php:1921
+#: ../inc/customizer/customizer.php:1929 ../inc/customizer/customizer.php:1937
+#: ../inc/customizer/customizer.php:1945 ../inc/customizer/customizer.php:1953
+#: ../inc/customizer/customizer.php:2102
+#: ../inc/plugins-integration/ninja-forms.php:432
+#: ../inc/plugins-integration/ninja-forms.php:561
+#: ../inc/plugins-integration/ninja-forms.php:827
+#: ../inc/plugins-integration/ninja-forms.php:1038
+#: ../inc/plugins-integration/ninja-forms.php:1331
+#: ../inc/plugins-integration/ninja-forms.php:1593
+#: ../inc/plugins-integration/ninja-forms.php:1712
+#: ../inc/plugins-integration/ninja-forms.php:1918
+#: ../inc/plugins-integration/ninja-forms.php:2100
+#: ../inc/plugins-integration/ninja-forms.php:2355
+#: ../inc/plugins-integration/ninja-forms.php:2573
+msgid "Font Family"
+msgstr "Famiglia Font"
+
+#: ../inc/customizer/customizer.php:1687 ../inc/customizer/customizer.php:1752
+#: ../inc/customizer/customizer.php:1791 ../inc/customizer/customizer.php:1906
+#: ../inc/customizer/customizer.php:1914 ../inc/customizer/customizer.php:1922
+#: ../inc/customizer/customizer.php:1930 ../inc/customizer/customizer.php:1938
+#: ../inc/customizer/customizer.php:1946 ../inc/customizer/customizer.php:1954
+#: ../inc/customizer/customizer.php:2103
+#: ../inc/plugins-integration/ninja-forms.php:417
+#: ../inc/plugins-integration/ninja-forms.php:546
+#: ../inc/plugins-integration/ninja-forms.php:812
+#: ../inc/plugins-integration/ninja-forms.php:1023
+#: ../inc/plugins-integration/ninja-forms.php:1316
+#: ../inc/plugins-integration/ninja-forms.php:1578
+#: ../inc/plugins-integration/ninja-forms.php:1697
+#: ../inc/plugins-integration/ninja-forms.php:1903
+#: ../inc/plugins-integration/ninja-forms.php:2085
+#: ../inc/plugins-integration/ninja-forms.php:2340
+#: ../inc/plugins-integration/ninja-forms.php:2558
+msgid "Font Weight"
+msgstr "Larghezza Font"
+
+#: ../inc/customizer/customizer.php:1688 ../inc/customizer/customizer.php:1753
+#: ../inc/customizer/customizer.php:1792 ../inc/customizer/customizer.php:1907
+#: ../inc/customizer/customizer.php:1915 ../inc/customizer/customizer.php:1923
+#: ../inc/customizer/customizer.php:1931 ../inc/customizer/customizer.php:1939
+#: ../inc/customizer/customizer.php:1947 ../inc/customizer/customizer.php:1955
+#: ../inc/customizer/customizer.php:2104
+msgid "Font Size (px)"
+msgstr "Grandezza Font (px)"
+
+#: ../inc/customizer/customizer.php:1690
+msgid "Settings"
+msgstr "Impostazioni"
+
+#: ../inc/customizer/customizer.php:1691 ../inc/customizer/customizer.php:1756
+msgid "First Level Items Align"
+msgstr "Allineamento Oggetti Primo Livello"
+
+#: ../inc/customizer/customizer.php:1692 ../inc/customizer/customizer.php:1762
+msgid "Icon Position"
+msgstr "Posizione Icona"
+
+#: ../inc/customizer/customizer.php:1693 ../inc/customizer/customizer.php:1763
+#: ../inc/customizer/customizer.php:1793
+msgid "Icon Size (px)"
+msgstr "Grandezza Icona (px)"
+
+#: ../inc/customizer/customizer.php:1694 ../inc/customizer/customizer.php:1766
+msgid "Items Separator"
+msgstr "Separatore Oggetti"
+
+#: ../inc/customizer/customizer.php:1695 ../inc/customizer/customizer.php:1767
+#: ../inc/customizer/customizer.php:1768
+msgid "Items Separator Opacity"
+msgstr "Opacità Separatore Oggetti"
+
+#: ../inc/customizer/customizer.php:1703
+msgid "Header design"
+msgstr "Design Testata"
+
+#: ../inc/customizer/customizer.php:1703 ../inc/customizer/customizer.php:1742
+#: ../inc/customizer/customizer.php:1779
+msgid "Site-wide header settings"
+msgstr "Impostazioni Testata su tutto il sito"
+
+#: ../inc/customizer/customizer.php:1709
+msgid "Header Height"
+msgstr "Altezza Testata"
+
+#: ../inc/customizer/customizer.php:1710
+msgid "Menu Height"
+msgstr "Altezza Menu"
+
+#: ../inc/customizer/customizer.php:1713
+msgid "Sticky On Scroll"
+msgstr "Fissa su Scroll"
+
+#: ../inc/customizer/customizer.php:1714
+msgid "Stick the menu on scroll"
+msgstr "Fissa il menu quando si esegue lo scroll"
+
+#: ../inc/customizer/customizer.php:1716
+msgid "Sticky/Mobile Menu Height"
+msgstr "Altezza Sticky/Menu Mobile"
+
+#: ../inc/customizer/customizer.php:1717
+msgid "Sticky/Mobile Menu Padding"
+msgstr "Padding Stikcy/Menu Mobile"
+
+#: ../inc/customizer/customizer.php:1718
+msgid "Sticky Scroll Offset (save to apply)"
+msgstr "Offset Sicky Scroll (salva per applicare)"
+
+#: ../inc/customizer/customizer.php:1725
+msgid "Logo"
+msgstr "Logo"
+
+#: ../inc/customizer/customizer.php:1725
+msgid "Website logotype settings"
+msgstr "Impostazioni logotype sito web"
+
+#: ../inc/customizer/customizer.php:1728
+msgid "Placement:"
+msgstr "Piazzamento:"
+
+#: ../inc/customizer/customizer.php:1729
+msgid "Normal Image"
+msgstr "Immagine Normale"
+
+#: ../inc/customizer/customizer.php:1730
+msgid "Maximum Logo Height (% to the height of the top header)"
+msgstr "Altezza Massima Logo (% in base all'altezza della testata top)"
+
+#: ../inc/customizer/customizer.php:1732 ../inc/customizer/customizer.php:1755
+msgid "More Settings"
+msgstr "Impostazioni Avanzate"
+
+#: ../inc/customizer/customizer.php:1733
+msgid "Margin top (optional)"
+msgstr "Margine top (opzionale)"
+
+#: ../inc/customizer/customizer.php:1734
+msgid "Margin left (optional)"
+msgstr "Margine sinistro (opzionale)"
+
+#: ../inc/customizer/customizer.php:1735
+msgid "Margin right (optional)"
+msgstr "Margine destro (opzionale)"
+
+#: ../inc/customizer/customizer.php:1742
+msgid "Mega Menu"
+msgstr "Mega Menu"
+
+#: ../inc/customizer/customizer.php:1757
+msgid "Hover/Active Border Radius"
+msgstr "Bordi Rotondi Hover/Attivo"
+
+#: ../inc/customizer/customizer.php:1758
+msgid "First Level Items Outer Spacing"
+msgstr "Spazio Esterno Oggetti Primo Livello"
+
+#: ../inc/customizer/customizer.php:1759
+msgid "First Level Items Inner Spacing"
+msgstr "Spazio Interno Oggetti Primo Livello"
+
+#: ../inc/customizer/customizer.php:1761
+msgid "Icons"
+msgstr "Icone"
+
+#: ../inc/customizer/customizer.php:1765
+msgid "Separators"
+msgstr "Separatori"
+
+#: ../inc/customizer/customizer.php:1770
+msgid "Menu elements"
+msgstr "Elementi menu"
+
+#: ../inc/customizer/customizer.php:1771
+msgid "Enable WPML switcher"
+msgstr "Abilita selezione WPML"
+
+#: ../inc/customizer/customizer.php:1772
+msgid "Label For Mobile Menu"
+msgstr "Etichetta per Menu Mobile"
+
+#: ../inc/customizer/customizer.php:1779
+msgid "Mega Menu: Dropdown"
+msgstr "Mega Menu: Tendina"
+
+#: ../inc/customizer/customizer.php:1786
+msgid "Dropdown Background Color"
+msgstr "Colore Sfondo Menu a Tendina"
+
+#: ../inc/customizer/customizer.php:1787
+msgid "Menu Items Divider Color"
+msgstr "Colore Separatore Oggetti Menu"
+
+#: ../inc/customizer/customizer.php:1789
+msgid "Fonts"
+msgstr "Font"
+
+#: ../inc/customizer/customizer.php:1796
+msgid "Menu settings"
+msgstr "Impostazioni Menu"
+
+#: ../inc/customizer/customizer.php:1797
+msgid "Dropdowns Animation"
+msgstr "Animazione Menu a Tendina"
+
+#: ../inc/customizer/customizer.php:1798
+msgid "Dropdown Panel Radius"
+msgstr "Rotondezza Pannello Menu a Tendina"
+
+#: ../inc/customizer/customizer.php:1799
+msgid "Dropdown Marker Opacity"
+msgstr "Marcatore Opacità Menu a Tendina"
+
+#: ../inc/customizer/customizer.php:1807
+msgid "Top panel:"
+msgstr "Pannello top:"
+
+#: ../inc/customizer/customizer.php:1808 ../inc/customizer/customizer.php:1812
+#: ../inc/customizer/customizer.php:1816
+msgid "&mdash; Left"
+msgstr "&mdash; Sinistra"
+
+#: ../inc/customizer/customizer.php:1809 ../inc/customizer/customizer.php:1813
+#: ../inc/customizer/customizer.php:1817
+msgid "&mdash; Right"
+msgstr "&mdash; Destra"
+
+#: ../inc/customizer/customizer.php:1811
+msgid "Header top:"
+msgstr "Testata top:"
+
+#: ../inc/customizer/customizer.php:1815
+msgid "Header bottom:"
+msgstr "Testata bassa:"
+
+#: ../inc/customizer/customizer.php:1821
+msgid "Inner shadow"
+msgstr "Ombra interiore"
+
+#: ../inc/customizer/customizer.php:1822
+msgid "Outer shadow"
+msgstr "Ombra esteriore"
+
+#: ../inc/customizer/customizer.php:1826
+msgid "Search field"
+msgstr "Campo cerca"
+
+#: ../inc/customizer/customizer.php:1826
+msgid "Settings for the search block in the site header"
+msgstr "Impostazioni per il blocco ricerca nella testata del sito"
+
+#: ../inc/customizer/customizer.php:1828
+msgid "Input Field Width (px)"
+msgstr "Larghezza Campo Input (px)"
+
+#: ../inc/customizer/customizer.php:1829
+msgid "Input Field Radius (px)"
+msgstr "Rotondezza Campo Input (px)"
+
+#: ../inc/customizer/customizer.php:1830
+msgid "Input Field Shadow"
+msgstr "Ombra Campo Input"
+
+#: ../inc/customizer/customizer.php:1831
+msgid "Input Background Color"
+msgstr "Colore Sfondo Input"
+
+#: ../inc/customizer/customizer.php:1832
+msgid "Text and Icon Color"
+msgstr "Colroe Testo e Icona"
+
+#: ../inc/customizer/customizer.php:1881
+msgid "Page Layout and Background"
+msgstr "Sfondo e Layout Pagina"
+
+#: ../inc/customizer/customizer.php:1881
+msgid "Here you can customize colors."
+msgstr "Qui puoi personalizzare i colori."
+
+#: ../inc/customizer/customizer.php:1883
+msgid "Content Background Color"
+msgstr "Colore Sfondo Contenuto"
+
+#: ../inc/customizer/customizer.php:1884
+msgid "Make Page Layout Boxed "
+msgstr "Rendi Layout Pagina Boxed"
+
+#: ../inc/customizer/customizer.php:1886
+msgid "Background Image"
+msgstr "Immagine Sfondo"
+
+#: ../inc/customizer/customizer.php:1887
+msgid "Background Image Opacity"
+msgstr "Opacità Immagine Sfondo"
+
+#: ../inc/customizer/customizer.php:1888
+msgid "Background Image Repeat"
+msgstr "Ripetizione Immagine Sfondo"
+
+#: ../inc/customizer/customizer.php:1889
+msgid "Background Image Position"
+msgstr "Posizione Immagine Sfondo"
+
+#: ../inc/customizer/customizer.php:1890
+msgid "Background Image Attachment"
+msgstr "Allegato Immagine Sfondo"
+
+#: ../inc/customizer/customizer.php:1891
+msgid "Background Image Size"
+msgstr "Grandezza Immagine Sfondo"
+
+#: ../inc/customizer/customizer.php:1898
+msgid "Typography and Text Colors"
+msgstr "Tipografia e Colori Testo"
+
+#: ../inc/customizer/customizer.php:1898
+msgid "All the setings to make your text looks awesome."
+msgstr "Tutte le impostazioni per rendere il tuo testo bello da vedere."
+
+#: ../inc/customizer/customizer.php:1904
+msgid "Paragraphs"
+msgstr "Paragrafi"
+
+#: ../inc/customizer/customizer.php:1908 ../inc/customizer/customizer.php:1916
+#: ../inc/customizer/customizer.php:1924 ../inc/customizer/customizer.php:1932
+#: ../inc/customizer/customizer.php:1940 ../inc/customizer/customizer.php:1948
+#: ../inc/customizer/customizer.php:1956
+msgid "Line Height (px)"
+msgstr "Altezza Linea (px)"
+
+#: ../inc/customizer/customizer.php:1909 ../inc/customizer/customizer.php:1917
+#: ../inc/customizer/customizer.php:1925 ../inc/customizer/customizer.php:1933
+#: ../inc/customizer/customizer.php:1941 ../inc/customizer/customizer.php:1949
+#: ../inc/customizer/customizer.php:1957
+msgid "Margin Bottom (px)"
+msgstr "Margine Basso (px)"
+
+#: ../inc/customizer/customizer.php:1910 ../inc/customizer/customizer.php:1918
+#: ../inc/customizer/customizer.php:1926 ../inc/customizer/customizer.php:1934
+#: ../inc/customizer/customizer.php:1942 ../inc/customizer/customizer.php:1950
+#: ../inc/customizer/customizer.php:1958
+msgid "Font Color"
+msgstr "Colore Font"
+
+#: ../inc/customizer/customizer.php:1912
+msgid "Heading 1"
+msgstr "Testata 1"
+
+#: ../inc/customizer/customizer.php:1920
+msgid "Heading 2"
+msgstr "Testata 2"
+
+#: ../inc/customizer/customizer.php:1928
+msgid "Heading 3"
+msgstr "Testata 3"
+
+#: ../inc/customizer/customizer.php:1936
+msgid "Heading 4"
+msgstr "Testata 4"
+
+#: ../inc/customizer/customizer.php:1944
+msgid "Heading 5"
+msgstr "Testata 5"
+
+#: ../inc/customizer/customizer.php:1952
+msgid "Heading 6"
+msgstr "Testata 6"
+
+#: ../inc/customizer/customizer.php:1971
+msgid "Sans-serif > Standard: Arial"
+msgstr "Sans-serif > Standard: Arial"
+
+#: ../inc/customizer/customizer.php:1972
+msgid "Sans-serif > Standard: Helvetica"
+msgstr "Sans-serif > Standard: Helvetica"
+
+#: ../inc/customizer/customizer.php:1973
+msgid "Sans-serif > Standard: Lucida Sans Unicode"
+msgstr "Sans-serif > Standard: Lucida Sans Unicode"
+
+#: ../inc/customizer/customizer.php:1974
+msgid "Sans-serif > Modern: Century Gothic"
+msgstr "Sans-serif > Modern: Century Gothic"
+
+#: ../inc/customizer/customizer.php:1976
+msgid "Sans-serif > Narrow: Arial Narrow"
+msgstr "Sans-serif > Narrow: Arial Narrow"
+
+#: ../inc/customizer/customizer.php:1977
+msgid "Sans-serif > Narrow Heavy: Impact"
+msgstr "Sans-serif > Narrow Heavy: Impact"
+
+#: ../inc/customizer/customizer.php:1978
+msgid "Sans-serif > Heavy: Arial Black"
+msgstr "Sans-serif > Heavy: Arial Black"
+
+#: ../inc/customizer/customizer.php:1980
+msgid "Serif > Standard: Cambria"
+msgstr "Serif > Standard: Cambria"
+
+#: ../inc/customizer/customizer.php:1981
+msgid "Serif > Standard: Verdana"
+msgstr "Serif > Standard: Verdana"
+
+#: ../inc/customizer/customizer.php:1982
+msgid "Serif > Modern: Constantia"
+msgstr "Serif > Modern: Constantia"
+
+#: ../inc/customizer/customizer.php:1983
+msgid "Serif > Old Style: Bookman Old Style"
+msgstr "Serif > Old Style: Bookman Old Style"
+
+#: ../inc/customizer/customizer.php:1986
+msgid "Font Presets"
+msgstr "Preset Font"
+
+#: ../inc/customizer/customizer.php:1986
+msgid "All the setings to make your website looks awesome."
+msgstr "Tutte le impostazioni per rendere il tuo sito web bello da vedere."
+
+#: ../inc/customizer/customizer.php:1989
+msgid "Font Preset 1"
+msgstr "Font Preset 1"
+
+#: ../inc/customizer/customizer.php:1990 ../inc/customizer/customizer.php:2013
+#: ../inc/customizer/customizer.php:2036 ../inc/customizer/customizer.php:2059
+msgid "Standard Font"
+msgstr "Font Standard"
+
+#: ../inc/customizer/customizer.php:1991 ../inc/customizer/customizer.php:2014
+#: ../inc/customizer/customizer.php:2037 ../inc/customizer/customizer.php:2060
+msgid "Google Web Font"
+msgstr "Google Web Font"
+
+#: ../inc/customizer/customizer.php:1992 ../inc/customizer/customizer.php:2015
+#: ../inc/customizer/customizer.php:2038 ../inc/customizer/customizer.php:2061
+msgid "Custom Web Font Name"
+msgstr "Nome Font Web Personalizzato"
+
+#: ../inc/customizer/customizer.php:1993 ../inc/customizer/customizer.php:2016
+#: ../inc/customizer/customizer.php:2039 ../inc/customizer/customizer.php:2062
+msgid "Use Google Web Fonts"
+msgstr "Utilizza i Font Web di Google"
+
+#: ../inc/customizer/customizer.php:2003 ../inc/customizer/customizer.php:2026
+#: ../inc/customizer/customizer.php:2049 ../inc/customizer/customizer.php:2072
+msgid "Use another for "
+msgstr "Utilizza un altro per"
+
+#: ../inc/customizer/customizer.php:2004 ../inc/customizer/customizer.php:2027
+#: ../inc/customizer/customizer.php:2050 ../inc/customizer/customizer.php:2073
+msgid "Google Web Font - "
+msgstr "Google Web Font - "
+
+#: ../inc/customizer/customizer.php:2005 ../inc/customizer/customizer.php:2028
+#: ../inc/customizer/customizer.php:2051 ../inc/customizer/customizer.php:2074
+msgid "Custom Web Font Name - "
+msgstr "Custom Web Font Name - "
+
+#: ../inc/customizer/customizer.php:2006 ../inc/customizer/customizer.php:2029
+#: ../inc/customizer/customizer.php:2052 ../inc/customizer/customizer.php:2075
+msgid "Use Google Web Fonts - "
+msgstr "Utilizza i Google Web Font - "
+
+#: ../inc/customizer/customizer.php:2012
+msgid "Font Preset 2"
+msgstr "Font Preset 2"
+
+#: ../inc/customizer/customizer.php:2035
+msgid "Font Preset 3"
+msgstr "Font Preset 3"
+
+#: ../inc/customizer/customizer.php:2058
+msgid "Font Preset 4"
+msgstr "Font Preset 4"
+
+#: ../inc/customizer/customizer.php:2081
+msgid "Additional character sets"
+msgstr "Set di caratteri addizionali"
+
+#: ../inc/customizer/customizer.php:2082
+msgid "Latin Extended"
+msgstr "Latin Extended"
+
+#: ../inc/customizer/customizer.php:2083
+msgid "Cyrillic"
+msgstr "Cyrillic"
+
+#: ../inc/customizer/customizer.php:2084
+msgid "Cyrillic Extended"
+msgstr "Cyrillic Extended"
+
+#: ../inc/customizer/customizer.php:2085
+msgid "Greek"
+msgstr "Greek"
+
+#: ../inc/customizer/customizer.php:2086
+msgid "Greek Extended"
+msgstr "Greek Extended"
+
+#: ../inc/customizer/customizer.php:2087
+msgid "Vietnamese"
+msgstr "Vietnamese"
+
+#: ../inc/customizer/customizer.php:2094
+msgid "Call-to-action area"
+msgstr "Area chiama-a-azione"
+
+#: ../inc/customizer/customizer.php:2094
+msgid "Site-wide call to action area settings"
+msgstr "Impostazioni area chiama-a-azione per tutto il sito"
+
+#: ../inc/customizer/customizer.php:2099
+msgid "Call to action Message"
+msgstr "Messaggio Chiama-a-azione"
+
+#: ../inc/customizer/customizer.php:2100
+msgid "Link"
+msgstr "Link"
+
+#: ../inc/customizer/customizer.php:2132
+msgid "Website Footer"
+msgstr "Footer Sito Web"
+
+#: ../inc/customizer/customizer.php:2132
+msgid "All the setings to make your footer looks awesome."
+msgstr ""
+"Tutte le impostazioni per rendere il tuo footer (piè di pagina) bello da "
+"vedere"
+
+#: ../inc/customizer/customizer.php:2133
+msgid "Default Footer Design"
+msgstr "Design Default Footer"
+
+#: ../inc/customizer/customizer.php:2142
+msgid "Advanced Settings"
+msgstr "Impostazioni Avanzate"
+
+#: ../inc/customizer/customizer.php:2143
+msgid "Enable Page Preloading Effect"
+msgstr "Abilita Effetto di Caricamento Pagina"
+
+#: ../inc/customizer/customizer.php:2144
+msgid "Envato Purchase Code (activates automatic theme updates):"
+msgstr "Puchase Code Envato (attiva aggiornamenti tema automatici)"
+
+#: ../inc/customizer/customizer.php:2270
+msgid "Before Header"
+msgstr "Prima di Testata"
+
+#: ../inc/customizer/customizer.php:2272
+msgid "Content"
+msgstr "Contenuto"
+
+#: ../inc/customizer/customizer.php:2273
+msgid "Footer"
+msgstr "Piè di pagina"
+
+#: ../inc/customizer/customizer.php:2274
+msgid "Other"
+msgstr "Altro"
+
+#: ../inc/customizer/customizer.php:2276
+msgid ""
+"Important: to apply font changes click <strong>\"Save & Publish\"</strong> "
+"on the top."
+msgstr ""
+"Importante: per applicare i cambi font premi <strong>\"Salva & Pubblica\"</"
+"strong> in alto."
+
+#: ../inc/customizer/customizer.php:2277
+msgid ""
+"Find the fonts for your project in the <br /><a href=\"http://www.google.com/"
+"fonts/\" target=\"_blank\" class=\"button button-primary\" style=\"margin-"
+"top:5px\">Google Fonts directory</a>"
+msgstr ""
+"Trova i font per il tuo progetto nella <br /><a href=\"http://www.google.com/"
+"fonts/\" target=\"_blank\" class=\"button button-primary\" style=\"margin-"
+"top:5px\">Google Fonts directory</a>"
+
+#: ../inc/customizer/customizer.php:2278
+msgid ""
+"Create a new footer or edit an existing one on the next admin page: <br /><a "
+"href=\"/wp-admin/edit.php?post_type=lbmn_footer\" target=\"_blank\" class="
+"\"button button-primary\" style=\"margin-top:5px\">Appearance &gt; Footers</"
+"a>"
+msgstr ""
+"Crea un nuovo footer (piè di pagina) o modifica uno esistente nella prossima "
+"pagina admin:<br /><a href=\"/wp-admin/edit.php?post_type=lbmn_footer\" "
+"target=\"_blank\" class=\"button button-primary\" style=\"margin-top:5px"
+"\">Aspetto &gt; Piè di pagina</a>"
+
+#: ../inc/customizer/customizer.php:2279
+msgid "Dropdown Preview"
+msgstr "Anteprima Menu a Tendina"
+
+#: ../inc/customizer/customizer.php:2280
+msgid "Next Dropdown"
+msgstr "Menu a Tendina Successivo"
+
+#: ../inc/customizer/customizer.php:2281
+msgid "Close"
+msgstr "Chiudi"
+
+#: ../inc/functions-extras.php:175
+#, php-format
+msgid "Page %s"
+msgstr "Pagina %s"
+
+#: ../inc/functions-ini.php:373
+msgid "Mobile: Off-canvas Panel"
+msgstr "Mobile: Pannello Off-canvas"
+
+#: ../inc/functions-nopluginsinstalled.php:95
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Vecchi post"
+
+#: ../inc/functions-nopluginsinstalled.php:99
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Nuovi post <span class=\"meta-nav\">&rarr;</span>"
+
+#: ../inc/functions-themeinstall.php:365
+msgid "SEOWP Theme"
+msgstr "Tema SEOWP"
+
+#: ../inc/importer/parsers.php:48 ../inc/importer/parsers.php:80
+#: ../inc/importer/parsers.php:88
+msgid "There was an error when reading this WXR file"
+msgstr "Si è verificato un errore durante la lettura di questo file WXR"
+
+#: ../inc/importer/parsers.php:49
+msgid ""
+"Details are shown above. The importer will now try again with a different "
+"parser..."
+msgstr ""
+"I dettagli sono mostrati sopra. L'importatore adesso proverà di nuovo con un "
+"parser differente..."
+
+#: ../inc/importer/parsers.php:92 ../inc/importer/parsers.php:97
+#: ../inc/importer/parsers.php:287 ../inc/importer/parsers.php:476
+msgid ""
+"This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr ""
+"Questo sembra non essere un file WXR, manca o è invalido il numero di "
+"versione WXR"
+
+#: ../inc/importer/widgets-importer.php:27
+msgid "Import file could not be found. Please try again."
+msgstr "Non può essere trovato il file di import. Per favore prova nuovamente."
+
+#: ../inc/importer/widgets-importer.php:46
+msgid "Import data could not be read. Please try a different file."
+msgstr ""
+"I dati importanti non possono essere letti. Per favore prova con un altro "
+"file."
+
+#: ../inc/importer/widgets-importer.php:84
+msgid "Sidebar does not exist in theme (using Inactive)"
+msgstr "Non è presente la Sidebar nel tema (utilizza Inattiva)"
+
+#: ../inc/importer/widgets-importer.php:106
+msgid "Site does not support widget"
+msgstr "Il sito non supporta i widget"
+
+#: ../inc/importer/widgets-importer.php:126
+msgid "Widget already exists"
+msgstr "Widget già esistente"
+
+#: ../inc/importer/widgets-importer.php:175
+msgid "Imported"
+msgstr "Importato"
+
+#: ../inc/importer/widgets-importer.php:178
+msgid "Imported to Inactive"
+msgstr "Importato a Inattivo"
+
+#: ../inc/importer/widgets-importer.php:185
+msgid "No Title"
+msgstr "Senza Titolo"
+
+#: ../inc/importer/wordpress-importer.php:134
+#: ../inc/importer/wordpress-importer.php:143
+#: ../inc/importer/wordpress-importer.php:194
+#: ../inc/importer/wordpress-importer.php:198
+#: ../inc/importer/wordpress-importer.php:207
+msgid "Sorry, there has been an error."
+msgstr "Spiacenti, si è verificato un errore."
+
+#: ../inc/importer/wordpress-importer.php:135
+msgid "The file does not exist, please try again."
+msgstr "Il file non esiste, per favore prova nuovamente."
+
+#: ../inc/importer/wordpress-importer.php:178
+msgid "All done."
+msgstr "Tutto fatto."
+
+#: ../inc/importer/wordpress-importer.php:178
+msgid "Have fun!"
+msgstr "Divertiti!"
+
+#: ../inc/importer/wordpress-importer.php:179
+msgid "Remember to update the passwords and roles of imported users."
+msgstr "Ricorda di aggiornare le password e i ruoli degli utenti importati."
+
+#: ../inc/importer/wordpress-importer.php:199
+#, php-format
+msgid ""
+"The export file could not be found at <code>%s</code>. It is likely that "
+"this was caused by a permissions problem."
+msgstr ""
+"Il file di export non può essere trovato a <code>%s</code>. E' probabile che "
+"questo sia causato da un problema di permessi."
+
+#: ../inc/importer/wordpress-importer.php:215
+#, php-format
+msgid ""
+"This WXR file (version %s) may not be supported by this version of the "
+"importer. Please consider updating."
+msgstr ""
+"Questo file WXR (versione %s) potrebbe non essere supportato da questa "
+"versione dell'importer. Per favore considera un aggiornamento."
+
+#: ../inc/importer/wordpress-importer.php:240
+#, php-format
+msgid ""
+"Failed to import author %s. Their posts will be attributed to the current "
+"user."
+msgstr ""
+"Importazione autore %s fallita. I suoi post verranno attribuiti all'utente "
+"attuale."
+
+#: ../inc/importer/wordpress-importer.php:266
+msgid "Assign Authors"
+msgstr "Assegna Autori"
+
+#: ../inc/importer/wordpress-importer.php:267
+msgid ""
+"To make it easier for you to edit and save the imported content, you may "
+"want to reassign the author of the imported item to an existing user of this "
+"site. For example, you may want to import all the entries as <code>admin</"
+"code>s entries."
+msgstr ""
+"Per renderti più facile salvare e importare i contenuti, potresti voler "
+"riassegnare l'autore degli oggetti importati ad un autore già esistente sul "
+"sito. Ad esempio, puoi importare tutte le entry come entry di <code>admin</"
+"code>."
+
+#: ../inc/importer/wordpress-importer.php:269
+#, php-format
+msgid ""
+"If a new user is created by WordPress, a new password will be randomly "
+"generated and the new user&#8217;s role will be set as %s. Manually changing "
+"the new user&#8217;s details will be necessary."
+msgstr ""
+"Se un nuvo utente viene creato da WordPress, una nuova password verrà "
+"generata automaticamete e il ruolo de nuovo utente sarà impostato a %s. Sarà "
+"quindi necessario cambiare manualmente i dettagli utente."
+
+#: ../inc/importer/wordpress-importer.php:279
+msgid "Import Attachments"
+msgstr "Importa Allegati"
+
+#: ../inc/importer/wordpress-importer.php:282
+msgid "Download and import file attachments"
+msgstr "Scarica e importa i file allegati"
+
+#: ../inc/importer/wordpress-importer.php:299
+msgid "Import author:"
+msgstr "Importa autore:"
+
+#: ../inc/importer/wordpress-importer.php:310
+msgid "or create new user with login name:"
+msgstr "oppure crea un nuovo autore con il nome login:"
+
+#: ../inc/importer/wordpress-importer.php:313
+msgid "as a new user:"
+msgstr "come un nuovo utente:"
+
+#: ../inc/importer/wordpress-importer.php:321
+msgid "assign posts to an existing user:"
+msgstr "assegnando i post ad un utente esistente:"
+
+#: ../inc/importer/wordpress-importer.php:323
+msgid "or assign posts to an existing user:"
+msgstr "oppure assegnando i post ad un utente esistente:"
+
+#: ../inc/importer/wordpress-importer.php:324
+msgid "- Select -"
+msgstr "- Seleziona -"
+
+#: ../inc/importer/wordpress-importer.php:374
+#, php-format
+msgid ""
+"Failed to create new user for %s. Their posts will be attributed to the "
+"current user."
+msgstr ""
+"Creazione nuovo utente per %s fallita. I suoi post verranno attribuiti "
+"all'utente attuale."
+
+#: ../inc/importer/wordpress-importer.php:425
+#, php-format
+msgid "Failed to import category %s"
+msgstr "Importazione categoria %s fallita"
+
+#: ../inc/importer/wordpress-importer.php:465
+#, php-format
+msgid "Failed to import post tag %s"
+msgstr "Importazione tag post %s fallita"
+
+#: ../inc/importer/wordpress-importer.php:511
+#: ../inc/importer/wordpress-importer.php:656
+#, php-format
+msgid "Failed to import %s %s"
+msgstr "Importazione %s %s fallita"
+
+#: ../inc/importer/wordpress-importer.php:541
+#, php-format
+msgid "Failed to import &#8220;%s&#8221;: Invalid post type %s"
+msgstr "Importazione &#8220;%s&#8221; fallita: Tipo post %s invalido"
+
+#: ../inc/importer/wordpress-importer.php:563
+#, php-format
+msgid "%s &#8220;%s&#8221; already exists."
+msgstr "%s &#8220;%s&#8221; esiste già."
+
+#: ../inc/importer/wordpress-importer.php:622
+#, php-format
+msgid "Failed to import %s &#8220;%s&#8221;"
+msgstr "Importazione %s &#8220;%s&#8221; fallita"
+
+#: ../inc/importer/wordpress-importer.php:787
+msgid "Menu item skipped due to missing menu slug"
+msgstr "Voce menu saltata per slug menu mancante"
+
+#: ../inc/importer/wordpress-importer.php:794
+#, php-format
+msgid "Menu item skipped due to invalid menu slug: %s"
+msgstr "Voce menu saltata per slug menu invalido: %s"
+
+#: ../inc/importer/wordpress-importer.php:857
+msgid "Fetching attachments is not enabled"
+msgstr "Fetching allegati non abilitato"
+
+#: ../inc/importer/wordpress-importer.php:870
+msgid "Invalid file type"
+msgstr "Tipo di file invalido"
+
+#: ../inc/importer/wordpress-importer.php:914
+msgid "Remote server did not respond"
+msgstr "Il server remoto non ha risposto"
+
+#: ../inc/importer/wordpress-importer.php:920
+#, php-format
+msgid "Remote server returned error response %1$d %2$s"
+msgstr "Il server remoto ha inviato una risposta di errore: %1$d %2$s"
+
+#: ../inc/importer/wordpress-importer.php:927
+msgid "Remote file is incorrect size"
+msgstr "Il file remoto ha una grandezza non corretta"
+
+#: ../inc/importer/wordpress-importer.php:932
+msgid "Zero size file downloaded"
+msgstr "Scaricate zero grandezze file"
+
+#: ../inc/importer/wordpress-importer.php:938
+#, php-format
+msgid "Remote file is too large, limit is %s"
+msgstr "Il file remoto è troppo largo, il limite è %s"
+
+#: ../inc/importer/wordpress-importer.php:1037
+msgid "Import WordPress"
+msgstr "Importa WordPress"
+
+#: ../inc/importer/wordpress-importer.php:1044
+#, php-format
+msgid ""
+"A new version of this importer is available. Please update to version %s to "
+"ensure compatibility with newer export files."
+msgstr ""
+"E' disponibile una nuova versione del'importer. Per favore aggiorna alla "
+"versione %s per assicurarti la compatibilità con i nuovi file esportati."
+
+#: ../inc/importer/wordpress-importer.php:1059
+msgid ""
+"Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import "
+"the posts, pages, comments, custom fields, categories, and tags into this "
+"site."
+msgstr ""
+"Heylà! Carica il tuo file eXtended RSS (WXR) di WordPress e noi importeremo "
+"i post, le pagine, i commenti, i campi personalizzati, le categorie, e i tag "
+"su questo sito."
+
+#: ../inc/importer/wordpress-importer.php:1060
+msgid "Choose a WXR (.xml) file to upload, then click Upload file and import."
+msgstr ""
+"Scegli un file WXR (.xml) da caricare, poi premi su Carica (Upload) e Importa"
+
+#: ../inc/plugins-integration/class-tgmpa.php:398
+msgid "Return to the dashboard"
+msgstr "Torna alla Dashboard"
+
+#: ../inc/plugins-integration/class-tgmpa.php:400
+msgid "The following plugin was activated successfully:"
+msgstr "Il segunte plugin è stato attivato con successo:"
+
+#: ../inc/plugins-integration/class-tgmpa.php:401
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr "Nessuna azione effettuata. Il plugin %1$s era già attivo."
+
+#: ../inc/plugins-integration/class-tgmpa.php:402
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+"Plugin non attivato. Una versione aggiornata di %s è diponibile per questo "
+"tema. Per favore aggiorna il plugin."
+
+#: ../inc/plugins-integration/class-tgmpa.php:403
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "Tutti i plugin installati e attivati con successo. %1$s"
+
+#: ../inc/plugins-integration/class-tgmpa.php:404
+msgid "Dismiss this notice"
+msgstr "Rimuovi questa notizia"
+
+#: ../inc/plugins-integration/class-tgmpa.php:405
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+"Per favore contatta l'amministratore di questo sito per essere aiutato."
+
+#: ../inc/plugins-integration/class-tgmpa.php:2167
+msgid "Required"
+msgstr "Richiesto"
+
+#: ../inc/plugins-integration/class-tgmpa.php:2170
+msgid "Recommended"
+msgstr "Raccomandato"
+
+#: ../inc/plugins-integration/class-tgmpa.php:2186
+msgid "WordPress Repository"
+msgstr "Deposito WordPress"
+
+#: ../inc/plugins-integration/class-tgmpa.php:2189
+msgid "External Source"
+msgstr "Sorgente Esterna"
+
+#: ../inc/plugins-integration/class-tgmpa.php:2192
+msgid "Pre-Packaged"
+msgstr "Preconfezionato"
+
+#: ../inc/plugins-integration/class-tgmpa.php:2209
+msgid "Not Installed"
+msgstr "Non Installato"
+
+#: ../inc/plugins-integration/class-tgmpa.php:2213
+msgid "Installed But Not Activated"
+msgstr "Installato ma Non Attivato"
+
+#: ../inc/plugins-integration/class-tgmpa.php:2215
+msgid "Active"
+msgstr "Attivo"
+
+#: ../inc/plugins-integration/class-tgmpa.php:2221
+msgid "Required Update not Available"
+msgstr "Aggiornamento Richiesto Non Disponibile"
+
+#: ../inc/plugins-integration/class-tgmpa.php:2224
+msgid "Requires Update"
+msgstr "Richiede Aggiornamento"
+
+#: ../inc/plugins-integration/class-tgmpa.php:2227
+msgid "Update recommended"
+msgstr "Aggiornamento consigliato"
+
+#: ../inc/plugins-integration/class-tgmpa.php:2280
+#, php-format
+msgid "All <span class=\"count\">(%s)</span>"
+msgstr "Tutti <span class=\"count\">(%s)</span>"
+
+#: ../inc/plugins-integration/class-tgmpa.php:2379
+msgid "Installed version:"
+msgstr "Versione installata:"
+
+#: ../inc/plugins-integration/class-tgmpa.php:2387
+msgid "Minimum required version:"
+msgstr "Versione minima richiesta:"
+
+#: ../inc/plugins-integration/class-tgmpa.php:2399
+msgid "Available version:"
+msgstr "Versione disponibile:"
+
+#: ../inc/plugins-integration/class-tgmpa.php:2422
+#, php-format
+msgid ""
+"No plugins to install, update or activate.  <br/><br/><a href=\"%1$s\" class="
+"\"button button-primary button-hero\">Return to the Theme Installation "
+"screen</a>"
+msgstr ""
+"Non ci sono plugin da installare, aggiornare o attivare. <br/><br/><a href="
+"\"%1$s\" class=\"button button-primary button-hero\">Torna allo screen di "
+"Installazione Tema</a>"
+
+#: ../inc/plugins-integration/class-tgmpa.php:2436
+msgid "Plugin"
+msgstr "Plugin"
+
+#: ../inc/plugins-integration/class-tgmpa.php:2437
+msgid "Source"
+msgstr "Sorgente"
+
+#: ../inc/plugins-integration/class-tgmpa.php:2438
+msgid "Type"
+msgstr "Tipo"
+
+#: ../inc/plugins-integration/class-tgmpa.php:2442
+msgid "Version"
+msgstr "Versione"
+
+#: ../inc/plugins-integration/class-tgmpa.php:2443
+msgid "Status"
+msgstr "Stato"
+
+#: ../inc/plugins-integration/class-tgmpa.php:2603
+msgid "Install"
+msgstr "Installa"
+
+#: ../inc/plugins-integration/class-tgmpa.php:2609
+msgid "Update"
+msgstr "Aggiorna"
+
+#: ../inc/plugins-integration/class-tgmpa.php:2612
+msgid "Activate"
+msgstr "Attiva"
+
+#: ../inc/plugins-integration/class-tgmpa.php:2643
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+"Non è stato selezionato nessun plugin per essere installato. Nessuna azione "
+"eseguita."
+
+#: ../inc/plugins-integration/class-tgmpa.php:2645
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+"Non è stato selezionato nessun plugin per essere aggiornato. Nessuna azione "
+"eseguita."
+
+#: ../inc/plugins-integration/class-tgmpa.php:2681
+msgid "No plugins are available to be installed at this time."
+msgstr "Al momento non ci sono plugin disponibili per essere installati."
+
+#: ../inc/plugins-integration/class-tgmpa.php:2683
+msgid "No plugins are available to be updated at this time."
+msgstr "Al momento non ci sono plugin disponibili per essere aggiornati."
+
+#: ../inc/plugins-integration/class-tgmpa.php:3028
+msgid "Plugin activation failed."
+msgstr "Attivazione plugin fallita."
+
+#: ../inc/plugins-integration/class-tgmpa.php:3362
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr "Aggiornamento Plugin %1$s (%2$d/%3$d)"
+
+#: ../inc/plugins-integration/class-tgmpa.php:3364
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+"Si è verificato un errore durante l'installazione di %1$s: <strong>%2$s</"
+"strong>."
+
+#: ../inc/plugins-integration/class-tgmpa.php:3365
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr "L'installazione di %1$s è fallita."
+
+#: ../inc/plugins-integration/class-tgmpa.php:3369
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+"Il processo di installazione e di attivazione è stato avviato. Questo "
+"processo in alcuni host può richiedere un pò di tempo, quindi sii paziente."
+
+#: ../inc/plugins-integration/class-tgmpa.php:3370
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s installato e attivato con successo."
+
+#: ../inc/plugins-integration/class-tgmpa.php:3371
+msgid "All installations and activations have been completed."
+msgstr "Tutte le installazioni e attivazioni sono state completate."
+
+#: ../inc/plugins-integration/class-tgmpa.php:3372
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "Installazione e Attivazione Plugin %1$s (%2$d/%3$d)"
+
+#: ../inc/plugins-integration/class-tgmpa.php:3375
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+"Il processo di installazione sta iniziando. Questo processo in alcuni host "
+"può richiedere un pò di tempo, quindi sii paziente."
+
+#: ../inc/plugins-integration/class-tgmpa.php:3377
+msgid "All installations have been completed."
+msgstr "Tutte le installazioni sono state completate."
+
+#: ../inc/plugins-integration/class-tgmpa.php:3378
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "Installazione Plugin %1$s (%2$d/%3$d)"
+
+#: ../inc/plugins-integration/livecomposer-archive.php:94
+msgid "All Templates"
+msgstr "Tutti i Template"
+
+#: ../inc/plugins-integration/livecomposer-archive.php:95
+msgid "View Template"
+msgstr "Guarda Template"
+
+#: ../inc/plugins-integration/livecomposer-archive.php:96
+msgid "Add New Template"
+msgstr "Aggiungi Nuovo Template"
+
+#: ../inc/plugins-integration/livecomposer-archive.php:97
+msgid "Add Template"
+msgstr "Aggiungi Template"
+
+#: ../inc/plugins-integration/livecomposer-archive.php:98
+msgid "Edit Template"
+msgstr "Modifica Template"
+
+#: ../inc/plugins-integration/livecomposer-archive.php:99
+msgid "Update Template"
+msgstr "Aggiorna Template"
+
+#: ../inc/plugins-integration/livecomposer-archive.php:101
+#: ../inc/plugins-integration/livecomposer-footer.php:59
+msgid "Not found"
+msgstr "Non trovato"
+
+#: ../inc/plugins-integration/livecomposer-archive.php:102
+#: ../inc/plugins-integration/livecomposer-footer.php:60
+msgid "Not found in Trash"
+msgstr "Non trovato nel Cestino"
+
+#: ../inc/plugins-integration/livecomposer-archive.php:105
+msgid "lbmn_archive"
+msgstr "lbmn_archive"
+
+#: ../inc/plugins-integration/livecomposer-footer.php:52
+msgid "All Footers"
+msgstr "Tutti i Piè di Pagina (Footer)"
+
+#: ../inc/plugins-integration/livecomposer-footer.php:53
+msgid "View Footer"
+msgstr "Guarda Piè di pagina (Footer)"
+
+#: ../inc/plugins-integration/livecomposer-footer.php:54
+msgid "Add New Footer"
+msgstr "Aggiungi nuovo Piè di Pagina (Footer)"
+
+#: ../inc/plugins-integration/livecomposer-footer.php:55
+msgid "Add Footer"
+msgstr "Aggiungi Piè di Pagina (Footer)"
+
+#: ../inc/plugins-integration/livecomposer-footer.php:56
+msgid "Edit Footer"
+msgstr "Modifica Piè di Pagina (Footer)"
+
+#: ../inc/plugins-integration/livecomposer-footer.php:57
+msgid "Update Footer"
+msgstr "Aggiorna Piè di Pagina (Footer)"
+
+#: ../inc/plugins-integration/livecomposer-footer.php:63
+msgid "lbmn_footer"
+msgstr "lbmn_footer"
+
+#: ../inc/plugins-integration/livecomposer.php:114
+msgid "Basic Page Template"
+msgstr "Template di Base Pagina"
+
+#: ../inc/plugins-integration/livecomposer.php:121
+msgid "About"
+msgstr "About"
+
+#: ../inc/plugins-integration/livecomposer.php:270
+msgid "Pricing Page"
+msgstr "Pagina dei Prezzi"
+
+#: ../inc/plugins-integration/livecomposer.php:345
+msgid "Services"
+msgstr "Servizi"
+
+#: ../inc/plugins-integration/livecomposer.php:446
+msgid "Blog"
+msgstr "Blog"
+
+#: ../inc/plugins-integration/livecomposer.php:457
+msgid "Contact us"
+msgstr "Contattaci"
+
+#: ../inc/plugins-integration/livecomposer.php:479
+msgid "Contact us – Multiply addresses"
+msgstr "Contattaci (Indirizzi Multipli)"
+
+#: ../inc/plugins-integration/livecomposer.php:1758
+msgid "No Comments"
+msgstr "Nessun Commento"
+
+#: ../inc/plugins-integration/livecomposer.php:1760
+msgid " Comments"
+msgstr " Commenti"
+
+#: ../inc/plugins-integration/livecomposer.php:1762
+msgid "1 Comment"
+msgstr "1 Commento"
+
+#: ../inc/plugins-integration/livecomposer.php:1783
+msgid "This heading will be automatically generated by a theme"
+msgstr "Questa testata verrà automaticamente generata da un tema"
+
+#: ../inc/plugins-integration/livecomposer.php:1786
+#, php-format
+msgid "Category Archives: %s"
+msgstr "Archivi Categoria: %s"
+
+#: ../inc/plugins-integration/livecomposer.php:1789
+#, php-format
+msgid "Tag Archives: %s"
+msgstr "Archivi Tag: %s"
+
+#: ../inc/plugins-integration/livecomposer.php:1796
+#, php-format
+msgid "Author Archives: %s"
+msgstr "Archivi Autore: %s"
+
+#: ../inc/plugins-integration/livecomposer.php:1804
+#, php-format
+msgid "Daily Archives: %s"
+msgstr "Archivi Giornalieri: %s"
+
+#: ../inc/plugins-integration/livecomposer.php:1807
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr "Archivi Mensili: %s"
+
+#: ../inc/plugins-integration/livecomposer.php:1810
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr "Archivi Annuali: %s"
+
+#: ../inc/plugins-integration/livecomposer.php:1813
+msgid "Asides"
+msgstr "Digressioni"
+
+#: ../inc/plugins-integration/livecomposer.php:1816
+msgid "Images"
+msgstr "Immagini"
+
+#: ../inc/plugins-integration/livecomposer.php:1819
+msgid "Videos"
+msgstr "Video"
+
+#: ../inc/plugins-integration/livecomposer.php:1822
+msgid "Quotes"
+msgstr "Citazioni"
+
+#: ../inc/plugins-integration/livecomposer.php:1825
+msgid "Links"
+msgstr "Link"
+
+#: ../inc/plugins-integration/livecomposer.php:1832
+msgid "You are searching for: "
+msgstr "Stai cercando per: "
+
+#: ../inc/plugins-integration/livecomposer.php:1836
+msgid "There is one post that match your criteria..."
+msgstr "C'è un post che corrisponde ai tuoi criteri..."
+
+#: ../inc/plugins-integration/livecomposer.php:1838
+#, php-format
+msgid "Here are %s posts that match your criteria..."
+msgstr "Ci sono %s post che corrispondono ai tuoi criteri..."
+
+#: ../inc/plugins-integration/livecomposer.php:1840
+msgid "Looks like nothing was found. Sorry."
+msgstr "Sembra che non sia stato trovato niente. Ci dispiace."
+
+#: ../inc/plugins-integration/livecomposer.php:1847
+msgid "Archives"
+msgstr "Archivi"
+
+#: ../inc/plugins-integration/masterslider.php:52
+#: ../inc/plugins-integration/masterslider.php:93
+msgid "Master Slider"
+msgstr "Slider Principale"
+
+#: ../inc/plugins-integration/masterslider.php:78
+#: ../inc/plugins-integration/ninja-forms.php:90
+msgid "-- Select --"
+msgstr "-- Seleziona --"
+
+#: ../inc/plugins-integration/masterslider.php:116
+msgid ""
+"Click the cog icon on the right of this box to choose which slider to show."
+msgstr ""
+"Clicca sull'icona ingranaggio sulla destra di questo box per scegliere quale "
+"slider mostrare."
+
+#: ../inc/plugins-integration/metaboxes.php:49
+msgid "Page Design Settings"
+msgstr "Impostazioni Design Pagina"
+
+#: ../inc/plugins-integration/metaboxes.php:71
+msgid "Menu cover content"
+msgstr "Contenuto Menu Cover"
+
+#: ../inc/plugins-integration/metaboxes.php:77
+msgid "Custom footer"
+msgstr "Piè di pagina personalizzato"
+
+#: ../inc/plugins-integration/metaboxes.php:83
+msgid "Select an Item"
+msgstr "Seleziona una Voce"
+
+#: ../inc/plugins-integration/ninja-forms.php:73
+msgid "Ninja Forms"
+msgstr "Ninja Forms"
+
+#: ../inc/plugins-integration/ninja-forms.php:117
+msgid "Form Name"
+msgstr "Nome Form"
+
+#: ../inc/plugins-integration/ninja-forms.php:125
+msgid "Show On"
+msgstr "Mostra su"
+
+#: ../inc/plugins-integration/ninja-forms.php:131
+msgid "Desktop"
+msgstr "Desktop"
+
+#: ../inc/plugins-integration/ninja-forms.php:135
+msgid "Tablet"
+msgstr "Tablet"
+
+#: ../inc/plugins-integration/ninja-forms.php:139
+msgid "Phone"
+msgstr "Cellulare"
+
+#: ../inc/plugins-integration/ninja-forms.php:151
+#: ../inc/plugins-integration/ninja-forms.php:891
+#: ../inc/plugins-integration/ninja-forms.php:2230
+#: ../inc/plugins-integration/ninja-forms.php:2448
+msgid " BG Color"
+msgstr " Colore BG"
+
+#: ../inc/plugins-integration/ninja-forms.php:161
+#: ../inc/plugins-integration/ninja-forms.php:286
+#: ../inc/plugins-integration/ninja-forms.php:692
+#: ../inc/plugins-integration/ninja-forms.php:902
+#: ../inc/plugins-integration/ninja-forms.php:1196
+#: ../inc/plugins-integration/ninja-forms.php:1804
+#: ../inc/plugins-integration/ninja-forms.php:2241
+#: ../inc/plugins-integration/ninja-forms.php:2459
+msgid "Border Color"
+msgstr "Colore Bordo"
+
+#: ../inc/plugins-integration/ninja-forms.php:171
+#: ../inc/plugins-integration/ninja-forms.php:341
+#: ../inc/plugins-integration/ninja-forms.php:736
+#: ../inc/plugins-integration/ninja-forms.php:913
+#: ../inc/plugins-integration/ninja-forms.php:1141
+#: ../inc/plugins-integration/ninja-forms.php:1251
+#: ../inc/plugins-integration/ninja-forms.php:1815
+#: ../inc/plugins-integration/ninja-forms.php:2252
+#: ../inc/plugins-integration/ninja-forms.php:2470
+msgid "Border Width"
+msgstr "Larghezza Bordo"
+
+#: ../inc/plugins-integration/ninja-forms.php:182
+#: ../inc/plugins-integration/ninja-forms.php:353
+#: ../inc/plugins-integration/ninja-forms.php:748
+#: ../inc/plugins-integration/ninja-forms.php:925
+#: ../inc/plugins-integration/ninja-forms.php:1263
+#: ../inc/plugins-integration/ninja-forms.php:1827
+#: ../inc/plugins-integration/ninja-forms.php:2264
+#: ../inc/plugins-integration/ninja-forms.php:2482
+msgid "Borders"
+msgstr "Bordi"
+
+#: ../inc/plugins-integration/ninja-forms.php:188
+#: ../inc/plugins-integration/ninja-forms.php:359
+#: ../inc/plugins-integration/ninja-forms.php:754
+#: ../inc/plugins-integration/ninja-forms.php:931
+#: ../inc/plugins-integration/ninja-forms.php:1269
+#: ../inc/plugins-integration/ninja-forms.php:1833
+#: ../inc/plugins-integration/ninja-forms.php:2270
+#: ../inc/plugins-integration/ninja-forms.php:2488
+msgid "Top"
+msgstr "Top"
+
+#: ../inc/plugins-integration/ninja-forms.php:196
+#: ../inc/plugins-integration/ninja-forms.php:367
+#: ../inc/plugins-integration/ninja-forms.php:762
+#: ../inc/plugins-integration/ninja-forms.php:939
+#: ../inc/plugins-integration/ninja-forms.php:1277
+#: ../inc/plugins-integration/ninja-forms.php:1841
+#: ../inc/plugins-integration/ninja-forms.php:2278
+#: ../inc/plugins-integration/ninja-forms.php:2496
+msgid "Bottom"
+msgstr "In basso"
+
+#: ../inc/plugins-integration/ninja-forms.php:210
+#: ../inc/plugins-integration/ninja-forms.php:954
+#: ../inc/plugins-integration/ninja-forms.php:2293
+#: ../inc/plugins-integration/ninja-forms.php:2511
+msgid "Border Radius - Top"
+msgstr "Rotondezza Bordo - Top"
+
+#: ../inc/plugins-integration/ninja-forms.php:221
+#: ../inc/plugins-integration/ninja-forms.php:966
+#: ../inc/plugins-integration/ninja-forms.php:2305
+#: ../inc/plugins-integration/ninja-forms.php:2523
+msgid "Border Radius - Bottom"
+msgstr "Rotondezza Bordo - In basso"
+
+#: ../inc/plugins-integration/ninja-forms.php:232
+#: ../inc/plugins-integration/ninja-forms.php:481
+#: ../inc/plugins-integration/ninja-forms.php:850
+#: ../inc/plugins-integration/ninja-forms.php:1061
+#: ../inc/plugins-integration/ninja-forms.php:1633
+#: ../inc/plugins-integration/ninja-forms.php:2123
+#: ../inc/plugins-integration/ninja-forms.php:2378
+msgid "Margin Bottom"
+msgstr "Margine In basso"
+
+#: ../inc/plugins-integration/ninja-forms.php:243
+msgid "Form Block: Padding Vertical"
+msgstr "Blocco Form: Padding Verticale"
+
+#: ../inc/plugins-integration/ninja-forms.php:254
+msgid "Form Block: Padding Horizontal"
+msgstr "Blocco Form: Padding Orizzontale"
+
+#: ../inc/plugins-integration/ninja-forms.php:275
+#: ../inc/plugins-integration/ninja-forms.php:681
+#: ../inc/plugins-integration/ninja-forms.php:1185
+#: ../inc/plugins-integration/ninja-forms.php:1793
+msgid "BG Color"
+msgstr "Colore BG"
+
+#: ../inc/plugins-integration/ninja-forms.php:283
+#: ../inc/plugins-integration/ninja-forms.php:294
+#: ../inc/plugins-integration/ninja-forms.php:305
+#: ../inc/plugins-integration/ninja-forms.php:316
+#: ../inc/plugins-integration/ninja-forms.php:327
+#: ../inc/plugins-integration/ninja-forms.php:338
+#: ../inc/plugins-integration/ninja-forms.php:350
+#: ../inc/plugins-integration/ninja-forms.php:379
+#: ../inc/plugins-integration/ninja-forms.php:391
+#: ../inc/plugins-integration/ninja-forms.php:413
+#: ../inc/plugins-integration/ninja-forms.php:425
+#: ../inc/plugins-integration/ninja-forms.php:440
+#: ../inc/plugins-integration/ninja-forms.php:451
+#: ../inc/plugins-integration/ninja-forms.php:463
+#: ../inc/plugins-integration/ninja-forms.php:478
+#: ../inc/plugins-integration/ninja-forms.php:490
+#: ../inc/plugins-integration/ninja-forms.php:502
+#: ../inc/plugins-integration/ninja-forms.php:514
+msgid "Textbox / Textarea"
+msgstr "Box di testo / Area di testo"
+
+#: ../inc/plugins-integration/ninja-forms.php:308
+#: ../inc/plugins-integration/ninja-forms.php:703
+msgid "Focused: BG Color"
+msgstr "Focus: Colore BG"
+
+#: ../inc/plugins-integration/ninja-forms.php:319
+#: ../inc/plugins-integration/ninja-forms.php:714
+msgid "Focused: Border Color"
+msgstr "Focus: Colore Bordo"
+
+#: ../inc/plugins-integration/ninja-forms.php:330
+#: ../inc/plugins-integration/ninja-forms.php:725
+msgid "Focused: Text Color"
+msgstr "Focus: Colore Testo"
+
+#: ../inc/plugins-integration/ninja-forms.php:382
+#: ../inc/plugins-integration/ninja-forms.php:777
+#: ../inc/plugins-integration/ninja-forms.php:1292
+msgid "Border Radius"
+msgstr "Rotondezza Bordo"
+
+#: ../inc/plugins-integration/ninja-forms.php:405
+#: ../inc/plugins-integration/ninja-forms.php:534
+#: ../inc/plugins-integration/ninja-forms.php:800
+#: ../inc/plugins-integration/ninja-forms.php:1011
+#: ../inc/plugins-integration/ninja-forms.php:1304
+#: ../inc/plugins-integration/ninja-forms.php:1566
+#: ../inc/plugins-integration/ninja-forms.php:1685
+#: ../inc/plugins-integration/ninja-forms.php:1891
+#: ../inc/plugins-integration/ninja-forms.php:2073
+#: ../inc/plugins-integration/ninja-forms.php:2328
+#: ../inc/plugins-integration/ninja-forms.php:2546
+msgid "Font Size"
+msgstr "Grandezza Font"
+
+#: ../inc/plugins-integration/ninja-forms.php:443
+#: ../inc/plugins-integration/ninja-forms.php:838
+msgid "Line Height Input"
+msgstr "Altezza Linea Input"
+
+#: ../inc/plugins-integration/ninja-forms.php:455
+msgid "Line Height Textarea"
+msgstr "Altezza Linea Area di testo"
+
+#: ../inc/plugins-integration/ninja-forms.php:467
+msgid "Min-Height Textarea"
+msgstr "Altezza-Minima Area di testo"
+
+#: ../inc/plugins-integration/ninja-forms.php:493
+#: ../inc/plugins-integration/ninja-forms.php:650
+#: ../inc/plugins-integration/ninja-forms.php:862
+#: ../inc/plugins-integration/ninja-forms.php:1073
+#: ../inc/plugins-integration/ninja-forms.php:1354
+#: ../inc/plugins-integration/ninja-forms.php:1645
+#: ../inc/plugins-integration/ninja-forms.php:1957
+#: ../inc/plugins-integration/ninja-forms.php:2135
+#: ../inc/plugins-integration/ninja-forms.php:2390
+#: ../inc/plugins-integration/ninja-forms.php:2596
+msgid "Padding Vertical"
+msgstr "Padding Verticale"
+
+#: ../inc/plugins-integration/ninja-forms.php:505
+#: ../inc/plugins-integration/ninja-forms.php:662
+#: ../inc/plugins-integration/ninja-forms.php:874
+#: ../inc/plugins-integration/ninja-forms.php:1085
+#: ../inc/plugins-integration/ninja-forms.php:1366
+#: ../inc/plugins-integration/ninja-forms.php:1657
+#: ../inc/plugins-integration/ninja-forms.php:1969
+#: ../inc/plugins-integration/ninja-forms.php:2147
+#: ../inc/plugins-integration/ninja-forms.php:2402
+#: ../inc/plugins-integration/ninja-forms.php:2608
+msgid "Padding Horizontal"
+msgstr "Padding Orizzontale"
+
+#: ../inc/plugins-integration/ninja-forms.php:523
+#: ../inc/plugins-integration/ninja-forms.php:789
+#: ../inc/plugins-integration/ninja-forms.php:1130
+#: ../inc/plugins-integration/ninja-forms.php:1555
+#: ../inc/plugins-integration/ninja-forms.php:1674
+#: ../inc/plugins-integration/ninja-forms.php:2062
+#: ../inc/plugins-integration/ninja-forms.php:2214
+msgid "Color"
+msgstr "Colore"
+
+#: ../inc/plugins-integration/ninja-forms.php:531
+#: ../inc/plugins-integration/ninja-forms.php:542
+#: ../inc/plugins-integration/ninja-forms.php:554
+#: ../inc/plugins-integration/ninja-forms.php:569
+#: ../inc/plugins-integration/ninja-forms.php:580
+#: ../inc/plugins-integration/ninja-forms.php:592
+#: ../inc/plugins-integration/ninja-forms.php:607
+#: ../inc/plugins-integration/ninja-forms.php:635
+#: ../inc/plugins-integration/ninja-forms.php:646
+#: ../inc/plugins-integration/ninja-forms.php:659
+#: ../inc/plugins-integration/ninja-forms.php:671
+msgid "List > Radio / Checkboxes"
+msgstr "Lista > Radio / Caselle"
+
+#: ../inc/plugins-integration/ninja-forms.php:572
+#: ../inc/plugins-integration/ninja-forms.php:1049
+#: ../inc/plugins-integration/ninja-forms.php:1342
+#: ../inc/plugins-integration/ninja-forms.php:1604
+#: ../inc/plugins-integration/ninja-forms.php:1723
+#: ../inc/plugins-integration/ninja-forms.php:1929
+#: ../inc/plugins-integration/ninja-forms.php:2111
+#: ../inc/plugins-integration/ninja-forms.php:2366
+#: ../inc/plugins-integration/ninja-forms.php:2584
+msgid "Line Height"
+msgstr "Altezza Linea"
+
+#: ../inc/plugins-integration/ninja-forms.php:584
+#: ../inc/plugins-integration/ninja-forms.php:1941
+msgid "Vertical Shift"
+msgstr "Spostamento Verticale"
+
+#: ../inc/plugins-integration/ninja-forms.php:599
+msgid "Input Margin Right"
+msgstr "Margine Destro Input"
+
+#: ../inc/plugins-integration/ninja-forms.php:625
+msgid "Label Margin Bottom"
+msgstr "Label Margine Basso"
+
+#: ../inc/plugins-integration/ninja-forms.php:638
+msgid "Label Margin Right"
+msgstr "Label Margine Destro"
+
+#: ../inc/plugins-integration/ninja-forms.php:689
+#: ../inc/plugins-integration/ninja-forms.php:700
+#: ../inc/plugins-integration/ninja-forms.php:711
+#: ../inc/plugins-integration/ninja-forms.php:722
+#: ../inc/plugins-integration/ninja-forms.php:733
+#: ../inc/plugins-integration/ninja-forms.php:745
+#: ../inc/plugins-integration/ninja-forms.php:774
+#: ../inc/plugins-integration/ninja-forms.php:786
+#: ../inc/plugins-integration/ninja-forms.php:797
+#: ../inc/plugins-integration/ninja-forms.php:808
+#: ../inc/plugins-integration/ninja-forms.php:820
+#: ../inc/plugins-integration/ninja-forms.php:835
+#: ../inc/plugins-integration/ninja-forms.php:846
+#: ../inc/plugins-integration/ninja-forms.php:859
+#: ../inc/plugins-integration/ninja-forms.php:871
+#: ../inc/plugins-integration/ninja-forms.php:883
+msgid "List > Dropdown"
+msgstr "Lista > Tendina"
+
+#: ../inc/plugins-integration/ninja-forms.php:899
+#: ../inc/plugins-integration/ninja-forms.php:910
+#: ../inc/plugins-integration/ninja-forms.php:922
+#: ../inc/plugins-integration/ninja-forms.php:951
+#: ../inc/plugins-integration/ninja-forms.php:963
+#: ../inc/plugins-integration/ninja-forms.php:975
+#: ../inc/plugins-integration/ninja-forms.php:986
+#: ../inc/plugins-integration/ninja-forms.php:997
+#: ../inc/plugins-integration/ninja-forms.php:1008
+#: ../inc/plugins-integration/ninja-forms.php:1019
+#: ../inc/plugins-integration/ninja-forms.php:1031
+#: ../inc/plugins-integration/ninja-forms.php:1046
+#: ../inc/plugins-integration/ninja-forms.php:1057
+#: ../inc/plugins-integration/ninja-forms.php:1070
+#: ../inc/plugins-integration/ninja-forms.php:1082
+#: ../inc/plugins-integration/ninja-forms.php:1094
+#: ../inc/plugins-integration/ninja-forms.php:1105
+msgid "Text Element"
+msgstr "Elemento Testo"
+
+#: ../inc/plugins-integration/ninja-forms.php:1000
+msgid "Link Color: Hover"
+msgstr "Colore Link: Hover"
+
+#: ../inc/plugins-integration/ninja-forms.php:1097
+#: ../inc/plugins-integration/ninja-forms.php:1759
+#: ../inc/plugins-integration/ninja-forms.php:2159
+#: ../inc/plugins-integration/ninja-forms.php:2414
+#: ../inc/plugins-integration/ninja-forms.php:2620
+msgid "Text Align"
+msgstr "Allineamento Testo"
+
+#: ../inc/plugins-integration/ninja-forms.php:1120
+#: ../inc/plugins-integration/ninja-forms.php:1782
+#: ../inc/plugins-integration/ninja-forms.php:2182
+#: ../inc/plugins-integration/ninja-forms.php:2437
+#: ../inc/plugins-integration/ninja-forms.php:2643
+msgid "Justify"
+msgstr "Giustifica"
+
+#: ../inc/plugins-integration/ninja-forms.php:1138
+#: ../inc/plugins-integration/ninja-forms.php:1152
+#: ../inc/plugins-integration/ninja-forms.php:1163
+#: ../inc/plugins-integration/ninja-forms.php:1175
+msgid "hr"
+msgstr "hr"
+
+#: ../inc/plugins-integration/ninja-forms.php:1155
+#: ../inc/plugins-integration/ninja-forms.php:1378
+#: ../inc/plugins-integration/ninja-forms.php:1735
+msgid "Margin Top"
+msgstr "Margine Top"
+
+#: ../inc/plugins-integration/ninja-forms.php:1167
+msgid "Margin Borrom"
+msgstr "Margine Basso"
+
+#: ../inc/plugins-integration/ninja-forms.php:1193
+#: ../inc/plugins-integration/ninja-forms.php:1204
+#: ../inc/plugins-integration/ninja-forms.php:1215
+#: ../inc/plugins-integration/ninja-forms.php:1226
+#: ../inc/plugins-integration/ninja-forms.php:1237
+#: ../inc/plugins-integration/ninja-forms.php:1248
+#: ../inc/plugins-integration/ninja-forms.php:1260
+#: ../inc/plugins-integration/ninja-forms.php:1289
+#: ../inc/plugins-integration/ninja-forms.php:1301
+#: ../inc/plugins-integration/ninja-forms.php:1312
+#: ../inc/plugins-integration/ninja-forms.php:1324
+#: ../inc/plugins-integration/ninja-forms.php:1339
+#: ../inc/plugins-integration/ninja-forms.php:1350
+#: ../inc/plugins-integration/ninja-forms.php:1363
+#: ../inc/plugins-integration/ninja-forms.php:1375
+#: ../inc/plugins-integration/ninja-forms.php:1386
+msgid "Submit"
+msgstr "Invia"
+
+#: ../inc/plugins-integration/ninja-forms.php:1218
+msgid "Hover: BG Color"
+msgstr "Hover: Colore BG"
+
+#: ../inc/plugins-integration/ninja-forms.php:1229
+msgid "Hover: Border Color"
+msgstr "Hover: Colore Bordo"
+
+#: ../inc/plugins-integration/ninja-forms.php:1240
+msgid "Hover: Text Color"
+msgstr "Hover: Colore Testo"
+
+#: ../inc/plugins-integration/ninja-forms.php:1419
+msgid "Padding Top"
+msgstr "Padding Top"
+
+#: ../inc/plugins-integration/ninja-forms.php:1427
+#: ../inc/plugins-integration/ninja-forms.php:1440
+#: ../inc/plugins-integration/ninja-forms.php:1453
+#: ../inc/plugins-integration/ninja-forms.php:1465
+msgid "Field > Padding"
+msgstr "Campo > Padding"
+
+#: ../inc/plugins-integration/ninja-forms.php:1432
+msgid "Padding Bottom"
+msgstr "Padding Basso"
+
+#: ../inc/plugins-integration/ninja-forms.php:1445
+msgid "Padding Left"
+msgstr "Padding Sinistra"
+
+#: ../inc/plugins-integration/ninja-forms.php:1457
+msgid "Padding Right"
+msgstr "Padding Destra"
+
+#: ../inc/plugins-integration/ninja-forms.php:1563
+#: ../inc/plugins-integration/ninja-forms.php:1574
+#: ../inc/plugins-integration/ninja-forms.php:1586
+#: ../inc/plugins-integration/ninja-forms.php:1601
+#: ../inc/plugins-integration/ninja-forms.php:1612
+#: ../inc/plugins-integration/ninja-forms.php:1642
+#: ../inc/plugins-integration/ninja-forms.php:1654
+#: ../inc/plugins-integration/ninja-forms.php:1666
+msgid "Field > Label"
+msgstr "Campo > Label"
+
+#: ../inc/plugins-integration/ninja-forms.php:1682
+#: ../inc/plugins-integration/ninja-forms.php:1693
+#: ../inc/plugins-integration/ninja-forms.php:1705
+#: ../inc/plugins-integration/ninja-forms.php:1720
+#: ../inc/plugins-integration/ninja-forms.php:1731
+#: ../inc/plugins-integration/ninja-forms.php:1743
+#: ../inc/plugins-integration/ninja-forms.php:1755
+#: ../inc/plugins-integration/ninja-forms.php:1767
+msgid "Field > Description"
+msgstr "Campo > Descrizione"
+
+#: ../inc/plugins-integration/ninja-forms.php:1747
+msgid "Margin Bottom ( paragraph )"
+msgstr "Margine Basso ( paragrafo )"
+
+#: ../inc/plugins-integration/ninja-forms.php:1801
+#: ../inc/plugins-integration/ninja-forms.php:1812
+#: ../inc/plugins-integration/ninja-forms.php:1824
+#: ../inc/plugins-integration/ninja-forms.php:1853
+#: ../inc/plugins-integration/ninja-forms.php:1865
+#: ../inc/plugins-integration/ninja-forms.php:1877
+#: ../inc/plugins-integration/ninja-forms.php:1888
+#: ../inc/plugins-integration/ninja-forms.php:1899
+#: ../inc/plugins-integration/ninja-forms.php:1911
+#: ../inc/plugins-integration/ninja-forms.php:1926
+#: ../inc/plugins-integration/ninja-forms.php:1937
+#: ../inc/plugins-integration/ninja-forms.php:1949
+#: ../inc/plugins-integration/ninja-forms.php:1966
+#: ../inc/plugins-integration/ninja-forms.php:1978
+msgid "Field > Error"
+msgstr "Campo > Errore"
+
+#: ../inc/plugins-integration/ninja-forms.php:1856
+msgid "Border Radius: Top"
+msgstr "Rotondezza Bordo: Top"
+
+#: ../inc/plugins-integration/ninja-forms.php:1868
+msgid "Border Radius: Bottom"
+msgstr "Rotondezza Bordo: In basso"
+
+#: ../inc/plugins-integration/ninja-forms.php:2041
+msgid "Required fields message"
+msgstr "Messaggio campi richiesti"
+
+#: ../inc/plugins-integration/ninja-forms.php:2047
+#: ../inc/plugins-integration/ninja-forms.php:2199
+msgid "Show"
+msgstr "Mostra"
+
+#: ../inc/plugins-integration/ninja-forms.php:2051
+#: ../inc/plugins-integration/ninja-forms.php:2203
+msgid "Hide"
+msgstr "Nascondi"
+
+#: ../inc/plugins-integration/ninja-forms.php:2059
+#: ../inc/plugins-integration/ninja-forms.php:2070
+#: ../inc/plugins-integration/ninja-forms.php:2081
+#: ../inc/plugins-integration/ninja-forms.php:2093
+#: ../inc/plugins-integration/ninja-forms.php:2108
+#: ../inc/plugins-integration/ninja-forms.php:2119
+#: ../inc/plugins-integration/ninja-forms.php:2131
+#: ../inc/plugins-integration/ninja-forms.php:2144
+#: ../inc/plugins-integration/ninja-forms.php:2156
+#: ../inc/plugins-integration/ninja-forms.php:2167
+#: ../inc/plugins-integration/ninja-forms.php:2211
+#: ../inc/plugins-integration/ninja-forms.php:2222
+msgid "Form Message > Required"
+msgstr "Messaggio Form > Richiesto"
+
+#: ../inc/plugins-integration/ninja-forms.php:2193
+msgid "Required Symbol (*)"
+msgstr "Simbolo Richiesto (*)"
+
+#: ../inc/plugins-integration/ninja-forms.php:2238
+#: ../inc/plugins-integration/ninja-forms.php:2249
+#: ../inc/plugins-integration/ninja-forms.php:2261
+#: ../inc/plugins-integration/ninja-forms.php:2290
+#: ../inc/plugins-integration/ninja-forms.php:2302
+#: ../inc/plugins-integration/ninja-forms.php:2314
+#: ../inc/plugins-integration/ninja-forms.php:2325
+#: ../inc/plugins-integration/ninja-forms.php:2336
+#: ../inc/plugins-integration/ninja-forms.php:2348
+#: ../inc/plugins-integration/ninja-forms.php:2363
+#: ../inc/plugins-integration/ninja-forms.php:2374
+#: ../inc/plugins-integration/ninja-forms.php:2386
+#: ../inc/plugins-integration/ninja-forms.php:2399
+#: ../inc/plugins-integration/ninja-forms.php:2411
+#: ../inc/plugins-integration/ninja-forms.php:2422
+msgid "Form Message > Error"
+msgstr "Messaggio Form > Errore"
+
+#: ../inc/plugins-integration/ninja-forms.php:2456
+#: ../inc/plugins-integration/ninja-forms.php:2467
+#: ../inc/plugins-integration/ninja-forms.php:2479
+#: ../inc/plugins-integration/ninja-forms.php:2508
+#: ../inc/plugins-integration/ninja-forms.php:2520
+#: ../inc/plugins-integration/ninja-forms.php:2532
+#: ../inc/plugins-integration/ninja-forms.php:2543
+#: ../inc/plugins-integration/ninja-forms.php:2554
+#: ../inc/plugins-integration/ninja-forms.php:2566
+#: ../inc/plugins-integration/ninja-forms.php:2581
+#: ../inc/plugins-integration/ninja-forms.php:2592
+#: ../inc/plugins-integration/ninja-forms.php:2605
+#: ../inc/plugins-integration/ninja-forms.php:2617
+#: ../inc/plugins-integration/ninja-forms.php:2628
+msgid "Form Message > Success"
+msgstr "Messaggio Form > Successo"
+
+#: ../inc/plugins-integration/ninja-forms.php:2741
+msgid ""
+"Click the cog icon on the right of this box to choose which form to show."
+msgstr ""
+"Premi sull'icona dell'ingranaggio sulla destra di questo box per scegliere "
+"quale form mostrare."
+
+#: ../inc/plugins-integration/ninja-forms.php:2754
+msgid "There is no form with title: "
+msgstr "Non c'è nessun form con questo titolo: "
+
+#: ../inc/plugins-integration/ninja-forms.php:2754
+msgid "Select a new form title if you rename it."
+msgstr "Seleziona un nuovo titolo form se lo rinomini."
+
+#~ msgid "Oops! That page can&rsquo;t be found."
+#~ msgstr "“”"
+
+#, fuzzy
+#~ msgid "Hide page title"
+#~ msgstr "“”"
+
+#, fuzzy
+#~ msgid "Secondary page title"
+#~ msgstr "“”"
+
+#, fuzzy
+#~ msgid "Post/Page IDs"
+#~ msgstr "“”"
+
+#~ msgid "LBMN Slider"
+#~ msgstr "“”"
+
+#, fuzzy
+#~ msgid "Section Slider"
+#~ msgstr "“”"
+
+#, fuzzy
+#~ msgid "Page background color"
+#~ msgstr "“”"

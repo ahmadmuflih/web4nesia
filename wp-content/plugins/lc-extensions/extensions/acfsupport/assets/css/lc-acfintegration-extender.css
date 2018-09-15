@@ -1,0 +1,114 @@
+/**
+ * Module File
+ */
+
+#dslc-content .lc-acf-module-file a {
+	border: 0px solid transparent;
+	display: block;
+	line-height: 1;
+	text-decoration: none;
+	text-align: center;
+}
+
+/**
+ * Modules Taxonomy, Pots Object, Relationship
+ */
+
+#dslc-content .lc-acf-module-taxonomy-horizontal li,
+#dslc-content .lc-acf-module-post-object-horizontal li,
+#dslc-content .lc-acf-module-relationship-horizontal li,
+#dslc-content .lc-acf-module-user-horizontal li {
+	display: inline-block;
+	margin-top: 0;
+	margin-bottom: 0;
+	list-style-type: none;
+}
+
+#dslc-content .lc-acf-module-taxonomy-horizontal li:first-child,
+#dslc-content .lc-acf-module-post-object-horizontal li:first-child,
+#dslc-content .lc-acf-module-relationship-horizontal li:first-child,
+#dslc-content .lc-acf-module-user-horizontal li:first-child {
+	margin-left: 0;
+}
+
+#dslc-content .lc-acf-module-taxonomy-horizontal li:last-child,
+#dslc-content .lc-acf-module-post-object-horizontal li:last-child,
+#dslc-content .lc-acf-module-relationship-horizontal li:last-child,
+#dslc-content .lc-acf-module-user-horizontal li:last-child {
+	margin-right: 0;
+}
+
+#dslc-content .lc-acf-module-taxonomy-vertical li,
+#dslc-content .lc-acf-module-post-object-vertical li,
+#dslc-content .lc-acf-module-relationship-vertical li,
+#dslc-content .lc-acf-module-user-vertical li {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+#dslc-content .lc-acf-module-taxonomy-vertical li:first-child,
+#dslc-content .lc-acf-module-post-object-vertical li:first-child,
+#dslc-content .lc-acf-module-relationship-vertical li:first-child,
+#dslc-content .lc-acf-module-user-vertical li:first-child {
+	margin-top: 0;
+}
+
+#dslc-content .lc-acf-module-taxonomy-vertical li:last-child,
+#dslc-content .lc-acf-module-post-object-vertical li:last-child,
+#dslc-content .lc-acf-module-relationship-vertical li:last-child,
+#dslc-content .lc-acf-module-user-vertical li:last-child {
+	margin-bottom: 0;
+}
+
+/**
+ * Module Notification
+ */
+
+.dslc-notification .label {
+	float: left;
+	margin-right: 10px;
+	margin-top: 0;
+}
+
+.dslc-notification .select_post {
+	margin-right: 10px;
+}
+
+#dslc-content .dslc-notification a.get_id {
+    background-color: #fff;
+    border: #ddd;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    color: #4d4d4d;
+    font-size: 13px;
+    line-height: 14px;
+    font-weight: 500;
+    font-family: Open Sans;
+    padding-top: 2px;
+    padding-bottom: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+#dslc-content .dslc-notification a.get_id:hover {
+	background-color: #fff;
+}
+
+#dslc-content .dslc-notification {
+	text-align: left;
+}
+
+/**
+ * Module Google Map
+ */
+ 
+.lc-acf-module-google-map .acf-map {
+	height: 400px;
+}
+
+/* fixes potential theme css conflict */
+.lc-acf-module-google-map .acf-map img {
+	max-width: inherit !important;
+}

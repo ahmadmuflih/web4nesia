@@ -1,0 +1,134 @@
+/*
+Theme Name: SEOWP
+
+Right to left support for SEOWP theme.
+http://codex.wordpress.org/Right_to_Left_Language_Support
+*/
+
+body {
+	direction: rtl;
+	unicode-bidi: embed;
+}
+
+/* 4 blocks */
+
+body.rtl .dslc-no-columns-spacing .dslc-col {
+	margin: 0;
+}
+
+/* Info box */
+
+body.rtl.home  #dslc-content .dslc-info-box-image {
+	float: right;
+	margin-left:25px;
+}
+
+body.rtl  #dslc-content .dslc-info-box-image {
+	float: right;
+	margin-left:12px;
+}
+
+body.rtl  #dslc-content .dslc-info-box-icon-pos-above .dslc-info-box-image {
+	float: none;
+}
+
+body.rtl .owl-carousel .owl-wrapper-outer{
+	direction: ltr;
+}
+
+/*  Title and Arrows - Case Studies */
+
+body.rtl .dslc-carousel-nav-next, .dslc-carousel-nav-prev{
+	display: block;
+	float: left;
+}
+
+body.rtl .dslc-carousel-nav {
+	float: left;
+}
+
+body.rtl #dslc-content .dslc-module-heading h2{
+	float: right;
+}
+
+body.rtl #dslc-content .dslc-module-heading-view-all{
+	float: right;
+}
+
+body.rtl #dslc-content .dslc-module-heading-view-all a{
+	padding-right: 15px;
+	border-right: 1px dotted #4f4f4f!important;
+	border-left: 0;
+	border-right-style: dotted;
+}
+
+/* Footer */
+
+body.rtl #dslc-footer .dslc-info-box-image{
+	margin-left: 20px;
+}
+
+/* Top Bar and Menu - Icon */
+
+body.rtl #mega_main_menu.icons-left > .menu_holder > .menu_inner > ul > li > .item_link.with_icon i {
+	float: right;
+	padding-left: 15px;
+}
+
+#mega_main_menu.language_direction-rtl > .menu_holder > .menu_inner > ul > li.nav_search_box #mega_main_menu_searchform{
+	right:18px;
+	left:auto;
+	z-index; 600;
+}
+
+/* Slider */
+
+body.rtl .ms-inner-controls-cont, .ms-container{
+	margin: 0px;
+}
+
+body.rtl .ms-view {
+	position: initial;
+}
+
+body.rtl .ms-inner-controls-cont, .ms-container {
+	position: initial;
+	margin: 0px;
+}
+
+/* Blog */
+
+body.rtl  #dslc-content .dslc-widget{
+	margin-left: 0;
+}
+body.rtl #dslc-content .dslc-col .dslc-widget{
+	margin-left: 0;
+}
+
+body.rtl #dslc-content .blog-noauthor .dslc-blog-post-meta-date, #dslc-content .blog-noauthor .dslc-cpt-post-meta-date {
+	float: right;
+}
+
+body.rtl #dslc-content .dslc-posts-orientation-horizontal .dslc-post-thumb{
+	float: right;
+}
+
+body.rtl .dslc-pagination li {
+	display: inline-block;
+	margin: 0 0 0 15px;
+	padding: 0;
+}
+
+body.rtl .widget_recent_comments li:before, .widget_archive li:before, .widget_recent_entries li:before, .widget_categories li:before, .widget_meta li:before{
+	right: 0;
+}
+
+body.rtl .widget_recent_entries li a {
+	position: relative;
+	margin-right: 35px;
+	margin-left: 10px;
+}
+
+body.rtl .widget_recent_entries li span {
+	margin-right: 35px;
+}

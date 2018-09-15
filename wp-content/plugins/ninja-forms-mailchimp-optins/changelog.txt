@@ -1,0 +1,27 @@
+v3.0.0
+------
+* New: Added basic Ninja Forms Three (NF3) support.
+* New: Added option to send user's browser language and IP address to MailChimp.
+* New: Improved automated updates set up.
+* Updated: Upgraded MailChimp API to v3 (only for Ninja Forms 3.x add-on version).
+
+v1.2.1
+------
+* Updated: Small bug fixes.
+* Updated: New documentation template.
+
+v1.2.0
+------
+* New: Added option to select default checkbox state (enabled, disabled).
+* Updated: Plugin licensing details updated.
+
+v1.1.0
+------
+* New: Added support for custom MailChimp Merge Tags!
+* Updated: Issue where MailChimp double opt-in always enabled was fixed.
+* Updated: Documentation updated (including new section on MailChimp Merge Tags).
+* Updated: Plugin name changed to Ninja Forms MailChimp Opt-ins.
+
+v1.0.0
+------
+* New: Initial release

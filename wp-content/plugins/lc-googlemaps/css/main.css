@@ -1,0 +1,50 @@
+#dslc-content .sklc-gmaps-wrapper img {
+	max-width: none;
+}
+
+.lc-googlemap-empty-map {
+	background: rgba(0, 0, 0, 0) url("../images/map-placeholder.jpg") no-repeat scroll 0 0 / cover ;
+	padding: 120px;
+}
+
+.lc-googlemap-empty-map:before {
+	background: rgba(255, 255, 255, 0.4) none repeat scroll 0 0;
+	content: "";
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+
+.lc-googlemap-empty-map .dslc-notification {
+	margin-bottom: 0;
+	text-align: center;
+}
+
+.lc-googlemap-empty-map .dslca-module-edit-hook.dslca-notification-action {
+  background: rgba(255, 255, 255, 0.21);
+  border-radius: 4px;
+  display: inline-block;
+  margin: 8px 4px 4px;
+  padding: 1px 9px;
+}
+
+.lc-googlemap-empty-map .dslca-notification-action {
+	cursor: pointer;
+}
+
+.lc-googlemap-empty-map .dslc-notification  .dslc-icon {
+	position: relative;
+	left: auto;
+	top: auto;
+	right: auto;
+	margin-right: 8px;
+}
+
+.dslc-notification.lc-notice-blue {
+    background: #5890e5;
+    border-color: #5890e5;
+    color: #fff;
+    text-shadow: 0 1px 1px #5890e5;
+}

@@ -1,0 +1,24 @@
+.dslc-adjacent-posts {
+
+}
+
+	.dslc-adjacent-posts a {
+		display: inline-block;
+		line-height: 1;
+	}
+
+	.dslc-adjacent-posts-prev {
+
+	}
+
+		.dslc-adjacent-posts-prev .dslc-icon {
+			margin-left: 0 !important;
+		}
+
+	.dslc-adjacent-posts-next {
+
+	}
+
+		.dslc-adjacent-posts-next .dslc-icon {
+			margin-right: 0 !important;
+		}

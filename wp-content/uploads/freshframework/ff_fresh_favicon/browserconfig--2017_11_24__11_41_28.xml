@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<browserconfig>
+<msapplication>
+<tile>
+<square70x70logo src="https://4nesia.com/wp-content/uploads/freshframework/ff_fresh_favicon/favicon_70x70--2017_11_24__11_41_28.png"/> <!-- IE11 Windows 8.1 favicon -->
+<square150x150logo src="https://4nesia.com/wp-content/uploads/freshframework/ff_fresh_favicon/favicon_150x150--2017_11_24__11_41_28.png"/> <!-- IE11 Windows 8.1 favicon -->
+<square310x310logo src="https://4nesia.com/wp-content/uploads/freshframework/ff_fresh_favicon/favicon_310x310--2017_11_24__11_41_28.png"/> <!-- IE11 Windows 8.1 favicon -->
+<wide310x150logo src="https://4nesia.com/wp-content/uploads/freshframework/ff_fresh_favicon/favicon_310x150--2017_11_24__11_41_28.png"/> <!-- IE11 Windows 8.1 wide favicon -->
+<TileColor>#FFFFFF</TileColor></tile></msapplication></browserconfig>
